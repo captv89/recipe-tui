@@ -108,8 +108,8 @@ func main() {
 		item{title: "Terrycloth", author: "Terrycloth", desc: "In other words, towel fabric"},
 	}
 
-	customDel := customDelegate{}
-	l := list.New(items, customDel, 20, 10)
+
+	l := list.New(items, list.NewDefaultDelegate(), 20, 10)
 	l.Title = "My Fave Things"
 
 	// Initialize the viewport with default size; it will be set in Update
