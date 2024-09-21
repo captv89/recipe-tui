@@ -3,7 +3,7 @@ package main
 import "github.com/charmbracelet/lipgloss"
 
 var (
-	docStyle = lipgloss.NewStyle().Margin(1, 2)
+	listStyle = lipgloss.NewStyle().Margin(1, 2)
 
 	viewportStyle = lipgloss.NewStyle().Margin(0, 2)
 

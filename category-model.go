@@ -1,17 +1,33 @@
 package main
 
-import tea "github.com/charmbracelet/bubbletea"
+import (
+	"github.com/charmbracelet/bubbles/list"
+	tea "github.com/charmbracelet/bubbletea"
+)
 
 type CategoryModel struct {
+	List list.Model
+}
+
+type Category struct {
 	Name string
 }
 
-func (rc CategoryModel) Title() string       { return rc.Name }
-func (rc CategoryModel) Description() string { return rc.Name }
-func (rc CategoryModel) FilterValue() string { return rc.Name }
+func (c Category) Title() string       { return c.Name }
+func (c Category) Description() string { return c.Name }
+func (c Category) FilterValue() string { return c.Name }
 
 // Init
 func (m CategoryModel) Init() tea.Cmd {
+	// Get the category list
+	categories, _ := loadFoodCategories()
+
+	// Create the list
+	l := list.New(categories, list.NewDefaultDelegate(), 0, 0)
+	l.Title = "Categories"
+
+	m.List = l
+
 	return nil
 }
 
@@ -22,5 +38,5 @@ func (m CategoryModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 // View
 func (m CategoryModel) View() string {
-	return m.Name
+	return listStyle.Render(m.List.View())
 }

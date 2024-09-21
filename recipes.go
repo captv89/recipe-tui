@@ -39,7 +39,7 @@ func loadFoodCategories() ([]list.Item, error) {
 
 	var categories []list.Item
 	for _, meal := range data.Meals {
-		categories = append(categories, RecipeCategory{
+		categories = append(categories, Category{
 			Name: meal.StrCategory,
 		})
 	}
@@ -62,7 +62,7 @@ func loadMealItems(category string) ([]list.Item, error) {
 
 	var meals []list.Item
 	for _, meal := range data.Meals {
-		meals = append(meals, Meal{
+		meals = append(meals, MealModel{
 			Name:     meal.StrMeal,
 			ImageURL: meal.StrMealThumb,
 			ID:       meal.IDMeal,

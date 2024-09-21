@@ -24,5 +24,5 @@ func (m MealModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 // View
 func (m MealModel) View() string {
-	return m.Name
+	return ""
 }

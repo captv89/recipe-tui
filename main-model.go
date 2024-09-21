@@ -14,8 +14,11 @@ const (
 )
 
 type MainModel struct {
-	State State
-	Error error
+	State         State
+	CategoryModel CategoryModel
+	MealModel     MealModel
+	RecipeModel   RecipeModel
+	Error         error
 }
 
 func (m MainModel) Init() tea.Cmd {
@@ -35,5 +38,13 @@ func (m MainModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 // View
 func (m MainModel) View() string {
-	return "Main"
+	switch m.State {
+	case CategoriesState:
+		return "Categories"
+	case MealsState:
+		return "Meals"
+	case RecipeState:
+		return "Recipe"
+	}
+	return ""
 }
