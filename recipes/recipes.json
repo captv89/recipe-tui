@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Italienische Bruschetta",
+        "description": "Eine kalt servierte Vorspeise aus Tomaten, Zwiebeln und Basilikum.",
+        "category": "Vorspeise",
+        "type": "kalt",
+        "origin": "Italien",
+        "cuisine": "Italienisch",
+        "tags": ["Vegetarisch", "Party", "Brotspeise", "Snack"],
+        "recipe": "Bruschetta.md"
+    },
+    {
+        "title": "Guacamole",
+        
+        "recipe": "Guacamole.md"
+    }
+]
