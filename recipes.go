@@ -22,10 +22,17 @@ type MealItems struct {
 	} `json:"meals,omitempty"`
 }
 
+// API placeholders
+const (
+	categoriesAPI = "https://www.themealdb.com/api/json/v1/1/list.php?c=list"
+	mealsAPI      = "https://www.themealdb.com/api/json/v1/1/filter.php?c="
+	recipeAPI     = "https://www.themealdb.com/api/json/v1/1/lookup.php?i="
+)
+
 func fetchCategories() tea.Cmd {
 	return func() tea.Msg {
 		// API call to get the food categories
-		r, err := http.Get("https://www.themealdb.com/api/json/v1/1/list.php?c=list")
+		r, err := http.Get(categoriesAPI)
 		if err != nil {
 			return nil
 		}
@@ -49,7 +56,7 @@ func fetchCategories() tea.Cmd {
 
 func fetchMeals(category string) tea.Cmd {
 	return func() tea.Msg {
-		url := fmt.Sprintf("https://www.themealdb.com/api/json/v1/1/filter.php?c=%s", category)
+		url := fmt.Sprintf("%s%s", mealsAPI, category)
 		r, err := http.Get(url)
 		if err != nil {
 			return nil
@@ -76,7 +83,7 @@ func fetchMeals(category string) tea.Cmd {
 
 func fetchRecipe(mealID string) tea.Cmd {
 	return func() tea.Msg {
-		url := fmt.Sprintf("https://www.themealdb.com/api/json/v1/1/lookup.php?i=%s", mealID)
+		url := fmt.Sprintf("%s%s", recipeAPI, mealID)
 		r, err := http.Get(url)
 		if err != nil {
 			return Recipe{}

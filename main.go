@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"log"
 
 	"github.com/charmbracelet/bubbles/list"
+	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 )
 
@@ -84,84 +84,31 @@ const (
 	recipeDetail
 )
 
-// API placeholders
-const (
-	categoriesAPI = "https://www.themealdb.com/api/json/v1/1/list.php?c=list"
-	mealsAPI      = "https://www.themealdb.com/api/json/v1/1/filter.php?c="
-	recipeAPI     = "https://www.themealdb.com/api/json/v1/1/lookup.php?i="
-)
-
 // Main model struct
 type model struct {
-	state         state
-	categories    []Category
-	meals         []Meal
-	recipe        Recipe
-	selectedIndex int
-	list          list.Model
+	state        state
+	categories   []Category
+	meals        []Meal
+	recipe       Recipe
+	categoryList list.Model
+	mealList     list.Model
+	recipeView   viewport.Model
 }
+
+// listItem is a helper for managing the list of categories and meals
+type listItem struct {
+	title string
+	desc  string
+}
+
+func (i listItem) Title() string       { return i.title }
+func (i listItem) Description() string { return i.desc }
+func (i listItem) FilterValue() string { return i.title }
 
 // Initialize app with categories
 func (m model) Init() tea.Cmd {
 	return fetchCategories()
 }
-
-// // Fetch categories from API
-// func fetchCategories() tea.Cmd {
-// 	return func() tea.Msg {
-// 		resp, err := http.Get(categoriesAPI)
-// 		if err != nil {
-// 			log.Fatal(err)
-// 		}
-// 		defer resp.Body.Close()
-// 		body, err := io.ReadAll(resp.Body)
-// 		if err != nil {
-// 			log.Fatal(err)
-// 		}
-
-// 		var categories []Category
-// 		json.Unmarshal(body, &categories)
-// 		return categories
-// 	}
-// }
-
-// // Fetch meals based on selected category
-// func fetchMeals(categoryID string) tea.Cmd {
-// 	return func() tea.Msg {
-// 		resp, err := http.Get(mealsAPI + categoryID)
-// 		if err != nil {
-// 			log.Fatal(err)
-// 		}
-// 		defer resp.Body.Close()
-// 		body, err := io.ReadAll(resp.Body)
-// 		if err != nil {
-// 			log.Fatal(err)
-// 		}
-
-// 		var meals []Meal
-// 		json.Unmarshal(body, &meals)
-// 		return meals
-// 	}
-// }
-
-// // Fetch recipe based on selected meal
-// func fetchRecipe(mealID string) tea.Cmd {
-// 	return func() tea.Msg {
-// 		resp, err := http.Get(recipeAPI + mealID)
-// 		if err != nil {
-// 			log.Fatal(err)
-// 		}
-// 		defer resp.Body.Close()
-// 		body, err := io.ReadAll(resp.Body)
-// 		if err != nil {
-// 			log.Fatal(err)
-// 		}
-
-// 		var recipe Recipe
-// 		json.Unmarshal(body, &recipe)
-// 		return recipe
-// 	}
-// }
 
 // Update function
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
@@ -175,31 +122,19 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			switch m.state {
 			case categoryList:
 				// Move to meal list
-				selectedCategory := m.categories[m.selectedIndex]
+				selectedCategory := m.categories[m.categoryList.Index()]
 				m.state = mealList
 				return m, fetchMeals(selectedCategory.Name)
 
 			case mealList:
 				// Move to recipe detail
-				selectedMeal := m.meals[m.selectedIndex]
+				selectedMeal := m.meals[m.mealList.Index()]
 				m.state = recipeDetail
 				return m, fetchRecipe(selectedMeal.ID)
 
 			case recipeDetail:
 				// No further action
 				return m, nil
-			}
-
-		case "up":
-			if m.selectedIndex > 0 {
-				m.selectedIndex--
-			}
-		case "down":
-			if m.state == categoryList && m.selectedIndex < len(m.categories)-1 {
-				m.selectedIndex++
-			}
-			if m.state == mealList && m.selectedIndex < len(m.meals)-1 {
-				m.selectedIndex++
 			}
 
 		case "backspace":
@@ -212,21 +147,49 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		}
 
 	case []Category:
+		items := make([]list.Item, len(msg))
+		for i, category := range msg {
+			items[i] = listItem{title: category.Name, desc: "Category"}
+		}
 		m.categories = msg
+		m.categoryList.SetItems(items)
+		m.categoryList.Title = "Meal Categories"
 		m.state = categoryList
-		m.selectedIndex = 0
-		return m, nil
+		return m, tea.Batch(nil)
 
 	case []Meal:
+		items := make([]list.Item, len(msg))
+		for i, meal := range msg {
+			items[i] = listItem{title: meal.Name, desc: "Meal"}
+		}
 		m.meals = msg
+		m.mealList.SetItems(items)
+		m.mealList.Title = "Meals"
 		m.state = mealList
-		m.selectedIndex = 0
-		return m, nil
+		return m, tea.Batch(nil)
 
 	case Recipe:
 		m.recipe = msg
+		m.recipeView = viewport.New(80, 20)
+		m.recipeView.SetContent(m.recipe.StrInstructions)
 		m.state = recipeDetail
-		return m, nil
+		return m, tea.Batch(nil)
+	}
+
+	// Update lists and viewport
+	switch m.state {
+	case categoryList:
+		var cmd tea.Cmd
+		m.categoryList, cmd = m.categoryList.Update(msg)
+		return m, cmd
+	case mealList:
+		var cmd tea.Cmd
+		m.mealList, cmd = m.mealList.Update(msg)
+		return m, cmd
+	case recipeDetail:
+		var cmd tea.Cmd
+		m.recipeView, cmd = m.recipeView.Update(msg)
+		return m, cmd
 	}
 
 	return m, nil
@@ -236,48 +199,31 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 func (m model) View() string {
 	switch m.state {
 	case categoryList:
-		return m.viewCategories()
+		return m.categoryList.View()
 	case mealList:
-		return m.viewMeals()
+		return m.mealList.View()
 	case recipeDetail:
-		return m.viewRecipe()
+		return m.recipeView.View() + "\nPress backspace to go back."
 	}
 	return ""
 }
 
-// View categories list
-func (m model) viewCategories() string {
-	s := "Select a category:\n\n"
-	for i, category := range m.categories {
-		cursor := " " // no cursor
-		if m.selectedIndex == i {
-			cursor = ">" // cursor
-		}
-		s += fmt.Sprintf("%s %s\n", cursor, category.Name)
-	}
-	return s + "\nPress q to quit."
-}
-
-// View meals list
-func (m model) viewMeals() string {
-	s := "Select a meal:\n\n"
-	for i, meal := range m.meals {
-		cursor := " " // no cursor
-		if m.selectedIndex == i {
-			cursor = ">" // cursor
-		}
-		s += fmt.Sprintf("%s %s\n", cursor, meal.Name)
-	}
-	return s + "\nPress backspace to go back."
-}
-
-// View recipe details
-func (m model) viewRecipe() string {
-	return fmt.Sprintf("Recipe details:\n\n%s\n\nPress backspace to go back.", m.recipe.StrMeal)
-}
-
 func main() {
-	p := tea.NewProgram(model{})
+	m := model{}
+
+	// Initialise the Model
+	m.categoryList = list.New([]list.Item{}, list.NewDefaultDelegate(), 0, 0)
+	m.categoryList.Title = "Meal Categories"
+	m.categoryList.SetSize(20, 10) // Ensure the size is set
+
+	m.mealList = list.New([]list.Item{}, list.NewDefaultDelegate(), 0, 0)
+	m.mealList.Title = "Meals"
+	m.mealList.SetSize(20, 10) // Ensure the size is set
+
+	m.recipeView = viewport.New(80, 20)
+	m.recipeView.SetContent("")
+
+	p := tea.NewProgram(m, tea.WithAltScreen())
 	if _, err := p.Run(); err != nil {
 		log.Fatal(err)
 	}
