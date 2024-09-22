@@ -70,6 +70,12 @@ type RecipeModel struct {
 	Viewport viewport.Model
 }
 
+func (m RecipeModel) initializeRecipe(recipe Recipe) RecipeModel {
+	content := formatRecipe(recipe)
+	m.Viewport.SetContent(content)
+	return m
+}
+
 // Init
 func (m RecipeModel) Init() tea.Cmd {
 	return nil
@@ -77,7 +83,9 @@ func (m RecipeModel) Init() tea.Cmd {
 
 // Update
 func (m RecipeModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
-	return m, nil
+	var cmd tea.Cmd
+	m.Viewport, cmd = m.Viewport.Update(msg)
+	return m, cmd
 }
 
 // View
@@ -87,7 +95,7 @@ func (m RecipeModel) View() string {
 }
 
 func (m RecipeModel) headerView() string {
-	title := titleStyle.Render("Recipe Name Here")
+	title := titleStyle.Render(m.Recipe.StrMeal)
 	line := strings.Repeat("─", max(0, m.Viewport.Width-lipgloss.Width(title)))
 	return lipgloss.JoinHorizontal(lipgloss.Center, title, line)
 }
@@ -96,4 +104,84 @@ func (m RecipeModel) footerView() string {
 	info := infoStyle.Render(fmt.Sprintf("%3.f%%", m.Viewport.ScrollPercent()*100))
 	line := strings.Repeat("─", max(0, m.Viewport.Width-lipgloss.Width(info)))
 	return lipgloss.JoinHorizontal(lipgloss.Center, line, info)
+}
+
+func formatRecipe(r Recipe) string {
+	var ingredients []string
+	for i := 1; i <= 10; i++ { // Adjusted to 10 for brevity
+		ing := getIngredientField(r, i)
+		measure := getMeasureField(r, i)
+		if ing != "" {
+			ingredients = append(ingredients, fmt.Sprintf("- %s %s", strings.TrimSpace(measure), strings.TrimSpace(ing)))
+		}
+	}
+
+	return fmt.Sprintf(
+		"%s\n\nCategory: %s\n\nIngredients:\n%s\n\nInstructions:\n%s",
+		r.StrMeal,
+		r.StrCategory,
+		strings.Join(ingredients, "\n"),
+		r.StrInstructions,
+	)
+}
+
+func getIngredientField(r Recipe, i int) string {
+	switch i {
+	case 1:
+		return r.StrIngredient1
+	case 2:
+		return r.StrIngredient2
+	case 3:
+		return r.StrIngredient3
+	case 4:
+		return r.StrIngredient4
+	case 5:
+		return r.StrIngredient5
+	case 6:
+		return r.StrIngredient6
+	case 7:
+		return r.StrIngredient7
+	case 8:
+		return r.StrIngredient8
+	case 9:
+		return r.StrIngredient9
+	case 10:
+		return r.StrIngredient10
+	default:
+		return ""
+	}
+}
+
+func getMeasureField(r Recipe, i int) string {
+	switch i {
+	case 1:
+		return r.StrMeasure1
+	case 2:
+		return r.StrMeasure2
+	case 3:
+		return r.StrMeasure3
+	case 4:
+		return r.StrMeasure4
+	case 5:
+		return r.StrMeasure5
+	case 6:
+		return r.StrMeasure6
+	case 7:
+		return r.StrMeasure7
+	case 8:
+		return r.StrMeasure8
+	case 9:
+		return r.StrMeasure9
+	case 10:
+		return r.StrMeasure10
+	default:
+		return ""
+	}
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }

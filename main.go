@@ -4,86 +4,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/charmbracelet/bubbles/spinner"
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/charmbracelet/lipgloss"
 )
-
-/*
-type item struct {
-	title, author, desc, content string
-}
-
-func (i item) Title() string       { return i.title }
-func (i item) Author() string      { return i.author }
-func (i item) Description() string { return i.desc }
-func (i item) Content() string     { return i.content }
-func (i item) FilterValue() string { return i.title }
-
-type model struct {
-	list        list.Model
-	viewport    viewport.Model
-	showDetails bool
-	currentItem item
-}
-
-func (m model) Init() tea.Cmd {
-	return nil
-}
-
-func (m *model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
-	switch msg := msg.(type) {
-	case tea.KeyMsg:
-		switch msg.String() {
-		case "q":
-			return m, tea.Quit
-		}
-		switch msg.Type {
-		case tea.KeyEscape:
-			// Go back to the list
-			m.showDetails = false
-			// Do nothing
-			return m, nil
-		case tea.KeyCtrlC:
-			return m, tea.Quit
-		case tea.KeyEnter:
-			if m.list.SelectedItem() != nil {
-				m.currentItem = m.list.SelectedItem().(item)
-			}
-			m.showDetails = !m.showDetails
-			if m.showDetails && m.list.SelectedItem() != nil {
-				selectedItem := m.list.SelectedItem().(item)
-				m.viewport.SetContent(fmt.Sprintf("Title: %s\nAuthor: %s\nDescription: %s\nContent: %s",
-					selectedItem.Title(),
-					selectedItem.Author(),
-					selectedItem.Description(),
-					selectedItem.Content(),
-				))
-			}
-		}
-
-	case tea.WindowSizeMsg:
-		h, v := docStyle.GetFrameSize()
-		m.list.SetSize(msg.Width-h, msg.Height-v)
-		m.viewport.Width = msg.Width - h
-		m.viewport.Height = msg.Height - v - 5
-		if m.showDetails && m.list.SelectedItem() != nil {
-			selectedItem := m.list.SelectedItem().(item)
-			m.viewport.SetContent(fmt.Sprintf("Title: %s\nAuthor: %s\nDescription: %s\nContent: %s",
-				selectedItem.Title(),
-				selectedItem.Author(),
-				selectedItem.Description(),
-				selectedItem.Content(),
-			))
-		}
-	}
-
-	var cmd tea.Cmd
-	m.list, cmd = m.list.Update(msg)
-	if m.showDetails {
-		m.viewport, cmd = m.viewport.Update(msg)
-	}
-	return m, cmd
-}
-*/
 
 func main() {
 	// Logging
@@ -94,8 +18,30 @@ func main() {
 	}
 	defer f.Close()
 
+	// Set the spinner
+	s := spinner.New()
+	s.Spinner = spinner.Dot
+	s.Style = lipgloss.NewStyle().Foreground(lipgloss.Color("202"))
+
+	// Load Empty Category Model
+	emptyCategoryModel := CategoryModel{}
+
+	// Load Empty Meal Model
+	emptyMealModel := MealModel{}
+
+	// Load Empty Recipe Model
+	emptyRecipeModel := RecipeModel{}
+
+	// Initialise the main model
+	mainModel := MainModel{
+		Spinner:  s,
+		Category: emptyCategoryModel,
+		Meal:     emptyMealModel,
+		Recipe:   emptyRecipeModel,
+	}
+
 	// Create the program
-	p := tea.NewProgram(MainModel{}, tea.WithAltScreen())
+	p := tea.NewProgram(mainModel, tea.WithAltScreen())
 
 	// Run the program
 	if _, err := p.Run(); err != nil {
