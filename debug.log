@@ -1,6 +1,5 @@
-2024/09/23 22:24:32 Starting Recipe TUI program
-2024/09/23 22:24:44 Starting Recipe TUI program
-2024/09/23 22:24:49 Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
+2024/09/23 23:46:48 main.go:280: Starting Recipe TUI program
+2024/09/23 23:46:53 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
@@ -8,7 +7,7 @@
 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/23 22:24:49 Formated Recipe:  
+2024/09/23 23:46:53 main.go:183: Formated Recipe:  
 
 Category: Beef
 
@@ -35,601 +34,101 @@ Instructions:
 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/23 22:24:50 Recipe Detail:  down
-2024/09/23 22:24:51 Recipe Detail:  down
-2024/09/23 22:24:51 Recipe Detail:  down
-2024/09/23 22:24:51 Recipe Detail:  down
-2024/09/23 22:24:51 Recipe Detail:  down
-2024/09/23 22:24:51 Recipe Detail:  down
-2024/09/23 22:24:51 Recipe Detail:  down
-2024/09/23 22:24:51 Recipe Detail:  down
-2024/09/23 22:24:51 Recipe Detail:  down
-2024/09/23 22:24:51 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:52 Recipe Detail:  down
-2024/09/23 22:24:53 Recipe Detail:  down
-2024/09/23 22:24:53 Recipe Detail:  down
-2024/09/23 22:24:53 Recipe Detail:  down
-2024/09/23 22:24:53 Recipe Detail:  down
-2024/09/23 22:24:53 Recipe Detail:  down
-2024/09/23 22:24:53 Recipe Detail:  down
-2024/09/23 22:24:53 Recipe Detail:  up
-2024/09/23 22:24:54 Recipe Detail:  up
-2024/09/23 22:24:54 Recipe Detail:  up
-2024/09/23 22:24:54 Recipe Detail:  up
-2024/09/23 22:24:54 Recipe Detail:  down
-2024/09/23 22:24:55 Recipe Detail:  down
-2024/09/23 22:24:55 Recipe Detail:  down
-2024/09/23 22:24:55 Recipe Detail:  down
-2024/09/23 22:24:55 Recipe Detail:  down
-2024/09/23 22:24:55 Recipe Detail:  down
-2024/09/23 22:24:55 Recipe Detail:  down
-2024/09/23 22:24:55 Recipe Detail:  down
-2024/09/23 22:24:55 Recipe Detail:  down
-2024/09/23 22:24:55 Recipe Detail:  down
-2024/09/23 22:24:55 Recipe Detail:  down
-2024/09/23 22:24:56 Recipe Detail:  down
-2024/09/23 22:24:56 Recipe Detail:  down
-2024/09/23 22:24:56 Recipe Detail:  down
-2024/09/23 22:24:56 Recipe Detail:  down
-2024/09/23 22:24:56 Recipe Detail:  down
-2024/09/23 22:24:56 Recipe Detail:  down
-2024/09/23 22:24:56 Recipe Detail:  down
-2024/09/23 22:24:56 Recipe Detail:  down
-2024/09/23 22:24:56 Recipe Detail:  down
-2024/09/23 22:24:57 Recipe Detail:  down
-2024/09/23 22:24:57 Recipe Detail:  up
-2024/09/23 22:24:57 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:58 Recipe Detail:  up
-2024/09/23 22:24:59 Recipe Detail:  up
-2024/09/23 22:24:59 Recipe Detail:  up
-2024/09/23 22:24:59 Recipe Detail:  up
-2024/09/23 22:24:59 Recipe Detail:  up
-2024/09/23 22:24:59 Recipe Detail:  up
-2024/09/23 22:25:12 Recipe Detail:  motion
-2024/09/23 22:25:12 Recipe Detail:  motion
-2024/09/23 22:25:12 Recipe Detail:  motion
-2024/09/23 22:25:13 Recipe Detail:  left press
-2024/09/23 22:25:13 Recipe Detail:  left release
-2024/09/23 22:25:15 Starting Recipe TUI program
-2024/09/23 22:25:21 Recipe: {IDMeal:52895 StrMeal:English Breakfast StrDrinkAlternate: StrCategory:Breakfast StrArea:British StrInstructions:Heat the flat grill plate over a low heat, on top of 2 rings/flames if it fits, and brush sparingly with light olive oil.
-Cook the sausages first. Add the sausages to the hot grill plate/the coolest part if there is one and allow to cook slowly for about 15-20 minutes, turning occasionally, until golden. After the first 10 minutes, increase the heat to medium before beginning to cook the other ingredients. If you are struggling for space, completely cook the sausages and keep hot on a plate in the oven.
-Snip a few small cuts into the fatty edge of the bacon. Place the bacon straight on to the grill plate and fry for 2-4 minutes each side or until your preferred crispiness is reached. Like the sausages, the cooked bacon can be kept hot on a plate in the oven.
-For the mushrooms, brush away any dirt using a pastry brush and trim the stalk level with the mushroom top. Season with salt and pepper and drizzle over a little olive oil. Place stalk-side up on the grill plate and cook for 1-2 minutes before turning and cooking for a further 3-4 minutes. Avoid moving the mushrooms too much while cooking, as this releases the natural juices, making them soggy.
-For the tomatoes, cut the tomatoes across the centre/or in half lengthways if using plum tomatoes , and with a small, sharp knife remove the green 'eye'. Season with salt and pepper and drizzle with a little olive oil. Place cut-side down on the grill plate and cook without moving for 2 minutes. Gently turn over and season again. Cook for a further 2-3 minutes until tender but still holding their shape.
-For the black pudding, cut the black pudding into 3-4 slices and remove the skin. Place on the grill plate and cook for 1½-2 minutes each side until slightly crispy.
-For 'proper' fried bread it's best to cook it in a separate pan. Ideally, use bread that is a couple of days old. Heat a frying pan to a medium heat and cover the base with oil. Add the bread and cook for 2-3 minutes each side until crispy and golden. If the pan becomes too dry, add a little more oil. For a richer flavour, add a knob of butter after you turn the slice.
-For the fried eggs, break the egg straight into the pan with the fried bread and leave for 30 seconds. Add a good knob of butter and lightly splash/baste the egg with the butter when melted. Cook to your preferred stage, season and gently remove with a fish slice.
-Once all the ingredients are cooked, serve on warm plates and enjoy straight away with a good squeeze of tomato ketchup or brown sauce. StrMealThumb:https://www.themealdb.com/images/media/meals/utxryw1511721587.jpg StrTags:Breakfast StrYoutube:https://www.youtube.com/watch?v=FXjYU2Ensck StrIngredient1:Sausages StrIngredient2:Bacon StrIngredient3:Mushrooms StrIngredient4:Tomatoes StrIngredient5:Black Pudding StrIngredient6:Eggs StrIngredient7:Bread StrIngredient8: StrIngredient9: StrIngredient10: StrIngredient11: StrIngredient12: StrIngredient13: StrIngredient14: StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:2 StrMeasure2:3 StrMeasure3:2 StrMeasure4:2 StrMeasure5:1 Slice StrMeasure6:2 StrMeasure7:1 Slice StrMeasure8: StrMeasure9: StrMeasure10: StrMeasure11: StrMeasure12: StrMeasure13: StrMeasure14: StrMeasure15: StrMeasure16: StrMeasure17: StrMeasure18: StrMeasure19: StrMeasure20: StrSource:https://www.bbc.co.uk/food/recipes/stressfreefullenglis_67721 StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/23 22:25:21 Formated Recipe:  
+2024/09/23 23:46:54 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 0 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:54 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 1 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:54 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 2 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:54 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 3 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:54 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 4 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 5 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 6 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 7 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 8 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 9 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:46:55 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:03 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:03 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:03 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:03 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:03 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:04 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:40 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:41 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:41 main.go:210: Recipe View At State:  {116 17 {{[pgdown   f] {f/pgdn page down} false} {[pgup b] {b/pgup page up} false} {[u ctrl+u] {u ½ page up} false} {[d ctrl+d] {d ½ page down} false} {[down j] {↓/j down} false} {[up k] {↑/k up} false}} true 3 10 0  false true [  Category: Beef  Area: Filipino  Ingredients: - 1.5kg Beef - 1 Beef Stock Concentrate - 8 ounces Tomato Puree - 3 cups Water - 6 tablespoons Soy Sauce - 1 tbs White Wine Vinegar - 2 tbs Pepper - 4 Bay Leaf - 1/2 Lemon - 2 tbs Tomato Sauce  Instructions: 0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes. 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil. 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat. 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside. 4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots. 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens. 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes. 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.]}
+2024/09/23 23:48:44 main.go:279: Starting Recipe TUI program
+2024/09/23 23:48:47 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
+1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
+2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
+3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
+4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
+5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
+6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
+7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
+2024/09/23 23:48:47 main.go:183: Formated Recipe:  
 
-Category: Breakfast
+Category: Beef
 
-Area: British
+Area: Filipino
 
 Ingredients:
-- 2 Sausages
-- 3 Bacon
-- 2 Mushrooms
-- 2 Tomatoes
-- 1 Slice Black Pudding
-- 2 Eggs
-- 1 Slice Bread
+- 1.5kg Beef
+- 1 Beef Stock Concentrate
+- 8 ounces Tomato Puree
+- 3 cups Water
+- 6 tablespoons Soy Sauce
+- 1 tbs White Wine Vinegar
+- 2 tbs Pepper
+- 4 Bay Leaf
+- 1/2 Lemon
+- 2 tbs Tomato Sauce
 
 Instructions:
-Heat the flat grill plate over a low heat, on top of 2 rings/flames if it fits, and brush sparingly with light olive oil.
-Cook the sausages first. Add the sausages to the hot grill plate/the coolest part if there is one and allow to cook slowly for about 15-20 minutes, turning occasionally, until golden. After the first 10 minutes, increase the heat to medium before beginning to cook the other ingredients. If you are struggling for space, completely cook the sausages and keep hot on a plate in the oven.
-Snip a few small cuts into the fatty edge of the bacon. Place the bacon straight on to the grill plate and fry for 2-4 minutes each side or until your preferred crispiness is reached. Like the sausages, the cooked bacon can be kept hot on a plate in the oven.
-For the mushrooms, brush away any dirt using a pastry brush and trim the stalk level with the mushroom top. Season with salt and pepper and drizzle over a little olive oil. Place stalk-side up on the grill plate and cook for 1-2 minutes before turning and cooking for a further 3-4 minutes. Avoid moving the mushrooms too much while cooking, as this releases the natural juices, making them soggy.
-For the tomatoes, cut the tomatoes across the centre/or in half lengthways if using plum tomatoes , and with a small, sharp knife remove the green 'eye'. Season with salt and pepper and drizzle with a little olive oil. Place cut-side down on the grill plate and cook without moving for 2 minutes. Gently turn over and season again. Cook for a further 2-3 minutes until tender but still holding their shape.
-For the black pudding, cut the black pudding into 3-4 slices and remove the skin. Place on the grill plate and cook for 1½-2 minutes each side until slightly crispy.
-For 'proper' fried bread it's best to cook it in a separate pan. Ideally, use bread that is a couple of days old. Heat a frying pan to a medium heat and cover the base with oil. Add the bread and cook for 2-3 minutes each side until crispy and golden. If the pan becomes too dry, add a little more oil. For a richer flavour, add a knob of butter after you turn the slice.
-For the fried eggs, break the egg straight into the pan with the fried bread and leave for 30 seconds. Add a good knob of butter and lightly splash/baste the egg with the butter when melted. Cook to your preferred stage, season and gently remove with a fish slice.
-Once all the ingredients are cooked, serve on warm plates and enjoy straight away with a good squeeze of tomato ketchup or brown sauce.
-2024/09/23 22:25:22 Recipe Detail:  down
-2024/09/23 22:25:23 Recipe Detail:  down
-2024/09/23 22:25:23 Recipe Detail:  down
-2024/09/23 22:25:23 Recipe Detail:  down
-2024/09/23 22:25:23 Recipe Detail:  down
-2024/09/23 22:25:23 Recipe Detail:  down
-2024/09/23 22:25:23 Recipe Detail:  down
-2024/09/23 22:25:23 Recipe Detail:  down
-2024/09/23 22:25:23 Recipe Detail:  down
-2024/09/23 22:25:24 Recipe Detail:  down
-2024/09/23 22:25:24 Recipe Detail:  down
-2024/09/23 22:25:24 Recipe Detail:  down
-2024/09/23 22:25:24 Recipe Detail:  down
-2024/09/23 22:25:24 Recipe Detail:  down
-2024/09/23 22:25:24 Recipe Detail:  down
-2024/09/23 22:25:24 Recipe Detail:  down
-2024/09/23 22:25:30 Recipe: {IDMeal:52957 StrMeal:Fruit and Cream Cheese Breakfast Pastries StrDrinkAlternate: StrCategory:Breakfast StrArea:American StrInstructions:Preheat oven to 400ºF (200ºC), and prepare two cookie sheets with parchment paper. In a bowl, mix cream cheese, sugar, and vanilla until fully combined. Lightly flour the surface and roll out puff pastry on top to flatten. Cut each sheet of puff pastry into 9 equal squares. On the top right and bottom left of the pastry, cut an L shape approximately ½ inch (1 cm) from the edge.
-NOTE: This L shape should reach all the way down and across the square, however both L shapes should not meet at the ends. Your pastry should look like a picture frame with two corners still intact.
-Take the upper right corner and fold down towards the inner bottom corner. You will now have a diamond shape.
-Place 1 to 2 teaspoons of the cream cheese filling in the middle, then place berries on top.
-Repeat with the remaining pastry squares and place them onto the parchment covered baking sheet.
-Bake for 15-20 minutes or until pastry is golden brown and puffed.
-Enjoy!
- StrMealThumb:https://www.themealdb.com/images/media/meals/1543774956.jpg StrTags:Breakfast,Summer StrYoutube: StrIngredient1:Cream Cheese StrIngredient2:Sugar StrIngredient3:Vanilla Extract StrIngredient4:Flour StrIngredient5:Puff Pastry StrIngredient6:Strawberries StrIngredient7:Raspberries StrIngredient8:Blackberries StrIngredient9: StrIngredient10: StrIngredient11: StrIngredient12: StrIngredient13: StrIngredient14: StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1 1/4 oz  StrMeasure2:1 1/4 cup StrMeasure3:1 teaspoon StrMeasure4: StrMeasure5:2 StrMeasure6: StrMeasure7: StrMeasure8: StrMeasure9: StrMeasure10: StrMeasure11: StrMeasure12: StrMeasure13: StrMeasure14: StrMeasure15: StrMeasure16: StrMeasure17: StrMeasure18: StrMeasure19: StrMeasure20: StrSource: StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/23 22:25:30 Formated Recipe:  
-
-Category: Breakfast
-
-Area: American
-
-Ingredients:
-- 1 1/4 oz Cream Cheese
-- 1 1/4 cup Sugar
-- 1 teaspoon Vanilla Extract
--  Flour
-- 2 Puff Pastry
--  Strawberries
--  Raspberries
--  Blackberries
-
-Instructions:
-Preheat oven to 400ºF (200ºC), and prepare two cookie sheets with parchment paper. In a bowl, mix cream cheese, sugar, and vanilla until fully combined. Lightly flour the surface and roll out puff pastry on top to flatten. Cut each sheet of puff pastry into 9 equal squares. On the top right and bottom left of the pastry, cut an L shape approximately ½ inch (1 cm) from the edge.
-NOTE: This L shape should reach all the way down and across the square, however both L shapes should not meet at the ends. Your pastry should look like a picture frame with two corners still intact.
-Take the upper right corner and fold down towards the inner bottom corner. You will now have a diamond shape.
-Place 1 to 2 teaspoons of the cream cheese filling in the middle, then place berries on top.
-Repeat with the remaining pastry squares and place them onto the parchment covered baking sheet.
-Bake for 15-20 minutes or until pastry is golden brown and puffed.
-Enjoy!
-
-2024/09/23 22:25:30 Recipe Detail:  down
-2024/09/23 22:25:31 Recipe Detail:  down
-2024/09/23 22:25:35 Recipe: {IDMeal:52962 StrMeal:Salmon Eggs Eggs Benedict StrDrinkAlternate: StrCategory:Breakfast StrArea:American StrInstructions:First make the Hollandaise sauce. Put the lemon juice and vinegar in a small bowl, add the egg yolks and whisk with a balloon whisk until light and frothy. Place the bowl over a pan of simmering water and whisk until mixture thickens. Gradually add the butter, whisking constantly until thick – if it looks like it might be splitting, then whisk off the heat for a few mins. Season and keep warm.
-
-To poach the eggs, bring a large pan of water to the boil and add the vinegar. Lower the heat so that the water is simmering gently. Stir the water so you have a slight whirlpool, then slide in the eggs one by one. Cook each for about 4 mins, then remove with a slotted spoon.
-
-Lightly toast and butter the muffins, then put a couple of slices of salmon on each half. Top each with an egg, spoon over some Hollandaise and garnish with chopped chives. StrMealThumb:https://www.themealdb.com/images/media/meals/1550440197.jpg StrTags:Bun,Brunch StrYoutube:https://www.youtube.com/watch?v=Woiiet4vQ58 StrIngredient1:Eggs StrIngredient2:White Wine Vinegar StrIngredient3:English Muffins StrIngredient4:Butter StrIngredient5:Smoked Salmon StrIngredient6:Lemon Juice StrIngredient7:White Wine Vinegar StrIngredient8:Egg StrIngredient9:Unsalted Butter StrIngredient10: StrIngredient11: StrIngredient12: StrIngredient13: StrIngredient14: StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:4 StrMeasure2:2 tbs StrMeasure3:2 StrMeasure4:To serve StrMeasure5:8 slices StrMeasure6:2 tsp StrMeasure7:2 tsp StrMeasure8:3 Yolkes StrMeasure9:125g StrMeasure10:  StrMeasure11:  StrMeasure12:  StrMeasure13:  StrMeasure14:  StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://www.bbcgoodfood.com/recipes/73606/eggs-benedict-with-smoked-salmon-and-chives StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/23 22:25:35 Formated Recipe:  
-
-Category: Breakfast
-
-Area: American
-
-Ingredients:
-- 4 Eggs
-- 2 tbs White Wine Vinegar
-- 2 English Muffins
-- To serve Butter
-- 8 slices Smoked Salmon
-- 2 tsp Lemon Juice
-- 2 tsp White Wine Vinegar
-- 3 Yolkes Egg
-- 125g Unsalted Butter
-
-Instructions:
-First make the Hollandaise sauce. Put the lemon juice and vinegar in a small bowl, add the egg yolks and whisk with a balloon whisk until light and frothy. Place the bowl over a pan of simmering water and whisk until mixture thickens. Gradually add the butter, whisking constantly until thick – if it looks like it might be splitting, then whisk off the heat for a few mins. Season and keep warm.
-
-To poach the eggs, bring a large pan of water to the boil and add the vinegar. Lower the heat so that the water is simmering gently. Stir the water so you have a slight whirlpool, then slide in the eggs one by one. Cook each for about 4 mins, then remove with a slotted spoon.
-
-Lightly toast and butter the muffins, then put a couple of slices of salmon on each half. Top each with an egg, spoon over some Hollandaise and garnish with chopped chives.
-2024/09/23 22:25:35 Recipe Detail:  down
-2024/09/23 22:25:36 Recipe Detail:  down
-2024/09/23 22:25:36 Recipe Detail:  down
-2024/09/23 22:25:36 Recipe Detail:  down
-2024/09/23 22:25:36 Recipe Detail:  down
-2024/09/23 22:25:36 Recipe Detail:  down
-2024/09/23 22:25:36 Recipe Detail:  down
-2024/09/23 22:25:36 Recipe Detail:  down
-2024/09/23 22:25:37 Recipe Detail:  down
-2024/09/23 22:25:37 Recipe Detail:  up
-2024/09/23 22:25:37 Recipe Detail:  up
-2024/09/23 22:25:38 Recipe Detail:  up
-2024/09/23 22:25:38 Recipe Detail:  up
-2024/09/23 22:25:38 Recipe Detail:  up
-2024/09/23 22:25:38 Recipe Detail:  up
-2024/09/23 22:25:38 Recipe Detail:  up
-2024/09/23 22:25:39 Recipe Detail:  up
-2024/09/23 22:25:39 Recipe Detail:  up
-2024/09/23 22:25:39 Recipe Detail:  down
-2024/09/23 22:25:40 Recipe Detail:  down
-2024/09/23 22:25:40 Recipe Detail:  down
-2024/09/23 22:25:40 Recipe Detail:  down
-2024/09/23 22:25:40 Recipe Detail:  down
-2024/09/23 22:25:40 Recipe Detail:  down
-2024/09/23 22:25:40 Recipe Detail:  down
-2024/09/23 22:25:40 Recipe Detail:  down
-2024/09/23 22:25:40 Recipe Detail:  down
-2024/09/23 22:25:40 Recipe Detail:  down
-2024/09/23 22:25:41 Recipe Detail:  down
-2024/09/23 22:25:41 Recipe Detail:  down
-2024/09/23 22:25:41 Recipe Detail:  down
-2024/09/23 22:25:41 Recipe Detail:  down
-2024/09/23 22:25:41 Recipe Detail:  down
-2024/09/23 22:25:43 Recipe Detail:  up
-2024/09/23 22:25:44 Recipe Detail:  down
-2024/09/23 22:25:45 Recipe Detail:  down
-2024/09/23 22:25:45 Recipe Detail:  down
-2024/09/23 22:25:45 Recipe Detail:  down
-2024/09/23 22:25:45 Recipe Detail:  down
-2024/09/23 22:25:45 Recipe Detail:  down
-2024/09/23 22:25:45 Recipe Detail:  down
-2024/09/23 22:25:45 Recipe Detail:  down
-2024/09/23 22:25:46 Recipe Detail:  down
-2024/09/23 22:25:55 Recipe: {IDMeal:53050 StrMeal:Ayam Percik StrDrinkAlternate: StrCategory:Chicken StrArea:Malaysian StrInstructions:In a blender, add the ingredients for the spice paste and blend until smooth.
-Over medium heat, pour the spice paste in a skillet or pan and fry for 10 minutes until fragrant. Add water or oil 1 tablespoon at a time if the paste becomes too dry. Don't burn the paste. Lower the fire slightly if needed.
-Add the cloves, cardamom, tamarind pulp, coconut milk, water, sugar and salt. Turn the heat up and bring the mixture to boil. Turn the heat to medium low and simmer for 10 minutes. Stir occasionally. It will reduce slightly. This is the marinade/sauce, so taste and adjust seasoning if necessary. Don't worry if it's slightly bitter. It will go away when roasting.
-When the marinade/sauce has cooled, pour everything over the chicken and marinate overnight to two days.
-Preheat the oven to 425 F.
-Remove the chicken from the marinade. Spoon the marinade onto a greased (or aluminum lined) baking sheet. Lay the chicken on top of the sauce (make sure the chicken covers the sauce and the sauce isn't exposed or it'll burn) and spread the remaining marinade on the chicken. Roast for 35-45 minutes or until internal temp of the thickest part of chicken is at least 175 F.
-Let chicken rest for 5 minutes. Brush the chicken with some of the oil. Serve chicken with the sauce over steamed rice (or coconut rice). StrMealThumb:https://www.themealdb.com/images/media/meals/020z181619788503.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=9ytR28QK6I8 StrIngredient1:Chicken Thighs StrIngredient2:Challots StrIngredient3:Ginger StrIngredient4:Garlic Clove StrIngredient5:Cayenne Pepper StrIngredient6:Turmeric StrIngredient7:Cumin StrIngredient8:Coriander StrIngredient9:Fennel StrIngredient10:Tamarind Paste StrIngredient11:Coconut Milk StrIngredient12:Sugar StrIngredient13:Water StrIngredient14: StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:6 StrMeasure2:16 StrMeasure3:1 1/2  StrMeasure4:6 StrMeasure5:8 StrMeasure6:2 tbs StrMeasure7:1 1/2  StrMeasure8:1 1/2  StrMeasure9:1 1/2  StrMeasure10:2 tbs StrMeasure11:1 can  StrMeasure12:1 tsp  StrMeasure13:1 cup  StrMeasure14:  StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:http://www.curiousnut.com/roasted-spiced-chicken-ayam-percik/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/23 22:25:55 Formated Recipe:  
-
-Category: Chicken
-
-Area: Malaysian
-
-Ingredients:
-- 6 Chicken Thighs
-- 16 Challots
-- 1 1/2 Ginger
-- 6 Garlic Clove
-- 8 Cayenne Pepper
-- 2 tbs Turmeric
-- 1 1/2 Cumin
-- 1 1/2 Coriander
-- 1 1/2 Fennel
-- 2 tbs Tamarind Paste
-
-Instructions:
-In a blender, add the ingredients for the spice paste and blend until smooth.
-Over medium heat, pour the spice paste in a skillet or pan and fry for 10 minutes until fragrant. Add water or oil 1 tablespoon at a time if the paste becomes too dry. Don't burn the paste. Lower the fire slightly if needed.
-Add the cloves, cardamom, tamarind pulp, coconut milk, water, sugar and salt. Turn the heat up and bring the mixture to boil. Turn the heat to medium low and simmer for 10 minutes. Stir occasionally. It will reduce slightly. This is the marinade/sauce, so taste and adjust seasoning if necessary. Don't worry if it's slightly bitter. It will go away when roasting.
-When the marinade/sauce has cooled, pour everything over the chicken and marinate overnight to two days.
-Preheat the oven to 425 F.
-Remove the chicken from the marinade. Spoon the marinade onto a greased (or aluminum lined) baking sheet. Lay the chicken on top of the sauce (make sure the chicken covers the sauce and the sauce isn't exposed or it'll burn) and spread the remaining marinade on the chicken. Roast for 35-45 minutes or until internal temp of the thickest part of chicken is at least 175 F.
-Let chicken rest for 5 minutes. Brush the chicken with some of the oil. Serve chicken with the sauce over steamed rice (or coconut rice).
-2024/09/23 22:25:55 Recipe Detail:  down
-2024/09/23 22:25:56 Recipe Detail:  down
-2024/09/23 22:25:56 Recipe Detail:  down
-2024/09/23 22:25:56 Recipe Detail:  down
-2024/09/23 22:25:56 Recipe Detail:  down
-2024/09/23 22:25:56 Recipe Detail:  down
-2024/09/23 22:25:57 Recipe Detail:  down
-2024/09/23 22:25:57 Recipe Detail:  down
-2024/09/23 22:25:57 Recipe Detail:  down
-2024/09/23 22:25:58 Recipe Detail:  up
-2024/09/23 22:25:59 Recipe Detail:  up
-2024/09/23 22:25:59 Recipe Detail:  up
-2024/09/23 22:25:59 Recipe Detail:  up
-2024/09/23 22:25:59 Recipe Detail:  up
-2024/09/23 22:25:59 Recipe Detail:  up
-2024/09/23 22:25:59 Recipe Detail:  up
-2024/09/23 22:25:59 Recipe Detail:  up
-2024/09/23 22:25:59 Recipe Detail:  up
-2024/09/23 22:25:59 Recipe Detail:  up
-2024/09/23 22:25:59 Recipe Detail:  up
-2024/09/23 22:26:00 Recipe Detail:  up
-2024/09/23 22:26:00 Recipe Detail:  up
-2024/09/23 22:26:00 Recipe Detail:  up
-2024/09/23 22:26:01 Recipe: {IDMeal:52940 StrMeal:Brown Stew Chicken StrDrinkAlternate: StrCategory:Chicken StrArea:Jamaican StrInstructions:Squeeze lime over chicken and rub well. Drain off excess lime juice.
-Combine tomato, scallion, onion, garlic, pepper, thyme, pimento and soy sauce in a large bowl with the chicken pieces. Cover and marinate at least one hour.
-Heat oil in a dutch pot or large saucepan. Shake off the seasonings as you remove each piece of chicken from the marinade. Reserve the marinade for sauce.
-Lightly brown the chicken a few pieces at a time in very hot oil. Place browned chicken pieces on a plate to rest while you brown the remaining pieces.
-Drain off excess oil and return the chicken to the pan. Pour the marinade over the chicken and add the carrots. Stir and cook over medium heat for 10 minutes.
-Mix flour and coconut milk and add to stew, stirring constantly. Turn heat down to minimum and cook another 20 minutes or until tender. StrMealThumb:https://www.themealdb.com/images/media/meals/sypxpx1515365095.jpg StrTags:Stew StrYoutube:https://www.youtube.com/watch?v=_gFB1fkNhXs StrIngredient1:Chicken StrIngredient2:Tomato StrIngredient3:Onions StrIngredient4:Garlic Clove StrIngredient5:Red Pepper StrIngredient6:Carrots StrIngredient7:Lime StrIngredient8:Thyme StrIngredient9:Allspice StrIngredient10:Soy Sauce StrIngredient11:Cornstarch StrIngredient12:Coconut Milk StrIngredient13:Vegetable Oil StrIngredient14: StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1 whole StrMeasure2:1 chopped StrMeasure3:2 chopped StrMeasure4:2 chopped StrMeasure5:1 chopped StrMeasure6:1 chopped StrMeasure7:1 StrMeasure8:2 tsp StrMeasure9:1 tsp  StrMeasure10:2 tbs StrMeasure11:2 tsp StrMeasure12:2 cups  StrMeasure13:1 tbs StrMeasure14: StrMeasure15: StrMeasure16: StrMeasure17: StrMeasure18: StrMeasure19: StrMeasure20: StrSource:http://www.geniuskitchen.com/recipe/authentic-jamaican-brown-stew-chicken-347996 StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/23 22:26:01 Formated Recipe:  
-
-Category: Chicken
-
-Area: Jamaican
-
-Ingredients:
-- 1 whole Chicken
-- 1 chopped Tomato
-- 2 chopped Onions
-- 2 chopped Garlic Clove
-- 1 chopped Red Pepper
-- 1 chopped Carrots
-- 1 Lime
-- 2 tsp Thyme
-- 1 tsp Allspice
-- 2 tbs Soy Sauce
-
-Instructions:
-Squeeze lime over chicken and rub well. Drain off excess lime juice.
-Combine tomato, scallion, onion, garlic, pepper, thyme, pimento and soy sauce in a large bowl with the chicken pieces. Cover and marinate at least one hour.
-Heat oil in a dutch pot or large saucepan. Shake off the seasonings as you remove each piece of chicken from the marinade. Reserve the marinade for sauce.
-Lightly brown the chicken a few pieces at a time in very hot oil. Place browned chicken pieces on a plate to rest while you brown the remaining pieces.
-Drain off excess oil and return the chicken to the pan. Pour the marinade over the chicken and add the carrots. Stir and cook over medium heat for 10 minutes.
-Mix flour and coconut milk and add to stew, stirring constantly. Turn heat down to minimum and cook another 20 minutes or until tender.
-2024/09/23 22:26:03 Recipe Detail:  down
-2024/09/23 22:26:03 Recipe Detail:  down
-2024/09/23 22:26:03 Recipe Detail:  down
-2024/09/23 22:26:04 Recipe Detail:  down
-2024/09/23 22:26:04 Recipe Detail:  down
-2024/09/23 22:26:04 Recipe Detail:  down
-2024/09/23 22:26:04 Recipe Detail:  down
-2024/09/23 22:26:04 Recipe Detail:  down
-2024/09/23 22:26:05 Recipe Detail:  down
-2024/09/23 22:26:05 Recipe Detail:  down
-2024/09/23 22:26:05 Recipe Detail:  down
-2024/09/23 22:26:05 Recipe Detail:  down
-2024/09/23 22:26:05 Recipe Detail:  down
-2024/09/23 22:26:06 Recipe Detail:  down
-2024/09/23 22:26:06 Recipe Detail:  down
-2024/09/23 22:26:06 Recipe Detail:  up
-2024/09/23 22:26:07 Recipe Detail:  up
-2024/09/23 22:26:07 Recipe Detail:  up
-2024/09/23 22:26:07 Recipe Detail:  up
-2024/09/23 22:26:07 Recipe Detail:  up
-2024/09/23 22:26:07 Recipe Detail:  up
-2024/09/23 22:26:07 Recipe Detail:  up
-2024/09/23 22:26:07 Recipe Detail:  up
-2024/09/23 22:26:08 Recipe Detail:  up
-2024/09/23 22:26:08 Recipe Detail:  up
-2024/09/23 22:26:08 Recipe Detail:  up
-2024/09/23 22:26:08 Recipe Detail:  up
-2024/09/23 22:26:08 Recipe Detail:  up
-2024/09/23 22:26:08 Recipe Detail:  up
-2024/09/23 22:26:08 Recipe Detail:  up
-2024/09/23 22:26:08 Recipe Detail:  up
-2024/09/23 22:26:08 Recipe Detail:  down
-2024/09/23 22:26:09 Recipe Detail:  down
-2024/09/23 22:26:09 Recipe Detail:  down
-2024/09/23 22:26:09 Recipe Detail:  down
-2024/09/23 22:26:09 Recipe Detail:  down
-2024/09/23 22:26:09 Recipe Detail:  down
-2024/09/23 22:26:09 Recipe Detail:  down
-2024/09/23 22:26:09 Recipe Detail:  down
-2024/09/23 22:26:09 Recipe Detail:  down
-2024/09/23 22:26:10 Recipe Detail:  down
-2024/09/23 22:26:10 Recipe Detail:  down
-2024/09/23 22:26:10 Recipe Detail:  down
-2024/09/23 22:26:10 Recipe Detail:  down
-2024/09/23 22:26:10 Recipe Detail:  down
-2024/09/23 22:26:10 Recipe Detail:  down
-2024/09/23 22:26:10 Recipe Detail:  down
-2024/09/23 22:26:10 Recipe Detail:  down
-2024/09/23 22:26:11 Recipe Detail:  right
-2024/09/23 22:26:11 Recipe Detail:  right
-2024/09/23 22:26:11 Recipe Detail:  right
-2024/09/23 22:26:12 Recipe Detail:  left
-2024/09/23 22:26:12 Recipe Detail:  left
-2024/09/23 22:26:12 Recipe Detail:  left
-2024/09/23 22:26:12 Recipe Detail:  down
-2024/09/23 22:26:12 Recipe Detail:  down
-2024/09/23 22:26:13 Recipe Detail:  down
-2024/09/23 22:26:13 Recipe Detail:  up
-2024/09/23 22:26:13 Recipe Detail:  up
-2024/09/23 22:26:13 Recipe Detail:  up
-2024/09/23 22:26:14 Recipe Detail:  up
-2024/09/23 22:26:14 Recipe Detail:  up
-2024/09/23 22:26:14 Recipe Detail:  up
-2024/09/23 22:26:14 Recipe Detail:  up
-2024/09/23 22:26:14 Recipe Detail:  up
-2024/09/23 22:26:14 Recipe Detail:  up
-2024/09/23 22:26:14 Recipe Detail:  up
-2024/09/23 22:26:14 Recipe Detail:  up
-2024/09/23 22:26:15 Recipe Detail:  up
-2024/09/23 22:26:15 Recipe Detail:  up
-2024/09/23 22:26:15 Recipe Detail:  up
-2024/09/23 22:26:15 Recipe Detail:  up
-2024/09/23 22:26:15 Recipe Detail:  up
-2024/09/23 22:26:15 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:16 Recipe Detail:  down
-2024/09/23 22:26:17 Recipe Detail:  down
-2024/09/23 22:26:17 Recipe Detail:  down
-2024/09/23 22:27:24 Recipe Detail:  motion
-2024/09/23 22:27:24 Recipe Detail:  motion
-2024/09/23 22:27:24 Recipe Detail:  motion
-2024/09/23 22:27:24 Recipe Detail:  motion
-2024/09/23 22:27:24 Recipe Detail:  left press
-2024/09/23 22:27:24 Recipe Detail:  left release
-2024/09/23 22:27:27 main.go:285: Starting Recipe TUI program
-2024/09/23 22:27:34 recipes.go:107: Recipe: {IDMeal:52768 StrMeal:Apple Frangipan Tart StrDrinkAlternate: StrCategory:Dessert StrArea:British StrInstructions:Preheat the oven to 200C/180C Fan/Gas 6.
-Put the biscuits in a large re-sealable freezer bag and bash with a rolling pin into fine crumbs. Melt the butter in a small pan, then add the biscuit crumbs and stir until coated with butter. Tip into the tart tin and, using the back of a spoon, press over the base and sides of the tin to give an even layer. Chill in the fridge while you make the filling.
-Cream together the butter and sugar until light and fluffy. You can do this in a food processor if you have one. Process for 2-3 minutes. Mix in the eggs, then add the ground almonds and almond extract and blend until well combined.
-Peel the apples, and cut thin slices of apple. Do this at the last minute to prevent the apple going brown. Arrange the slices over the biscuit base. Spread the frangipane filling evenly on top. Level the surface and sprinkle with the flaked almonds.
-Bake for 20-25 minutes until golden-brown and set.
-Remove from the oven and leave to cool for 15 minutes. Remove the sides of the tin. An easy way to do this is to stand the tin on a can of beans and push down gently on the edges of the tin.
-Transfer the tart, with the tin base attached, to a serving plate. Serve warm with cream, crème fraiche or ice cream. StrMealThumb:https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg StrTags:Tart,Baking,Fruity StrYoutube:https://www.youtube.com/watch?v=rp8Slv4INLk StrIngredient1:digestive biscuits StrIngredient2:butter StrIngredient3:Bramley apples StrIngredient4:butter, softened StrIngredient5:caster sugar StrIngredient6:free-range eggs, beaten StrIngredient7:ground almonds StrIngredient8:almond extract StrIngredient9:flaked almonds StrIngredient10: StrIngredient11: StrIngredient12: StrIngredient13: StrIngredient14: StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:175g/6oz StrMeasure2:75g/3oz StrMeasure3:200g/7oz StrMeasure4:75g/3oz StrMeasure5:75g/3oz StrMeasure6:2 StrMeasure7:75g/3oz StrMeasure8:1 tsp StrMeasure9:50g/1¾oz StrMeasure10: StrMeasure11: StrMeasure12: StrMeasure13: StrMeasure14: StrMeasure15: StrMeasure16: StrMeasure17: StrMeasure18: StrMeasure19: StrMeasure20: StrSource: StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/23 22:27:34 main.go:183: Formated Recipe:  
-
-Category: Dessert
-
-Area: British
-
-Ingredients:
-- 175g/6oz digestive biscuits
-- 75g/3oz butter
-- 200g/7oz Bramley apples
-- 75g/3oz butter, softened
-- 75g/3oz caster sugar
-- 2 free-range eggs, beaten
-- 75g/3oz ground almonds
-- 1 tsp almond extract
-- 50g/1¾oz flaked almonds
-
-Instructions:
-Preheat the oven to 200C/180C Fan/Gas 6.
-Put the biscuits in a large re-sealable freezer bag and bash with a rolling pin into fine crumbs. Melt the butter in a small pan, then add the biscuit crumbs and stir until coated with butter. Tip into the tart tin and, using the back of a spoon, press over the base and sides of the tin to give an even layer. Chill in the fridge while you make the filling.
-Cream together the butter and sugar until light and fluffy. You can do this in a food processor if you have one. Process for 2-3 minutes. Mix in the eggs, then add the ground almonds and almond extract and blend until well combined.
-Peel the apples, and cut thin slices of apple. Do this at the last minute to prevent the apple going brown. Arrange the slices over the biscuit base. Spread the frangipane filling evenly on top. Level the surface and sprinkle with the flaked almonds.
-Bake for 20-25 minutes until golden-brown and set.
-Remove from the oven and leave to cool for 15 minutes. Remove the sides of the tin. An easy way to do this is to stand the tin on a can of beans and push down gently on the edges of the tin.
-Transfer the tart, with the tin base attached, to a serving plate. Serve warm with cream, crème fraiche or ice cream.
-2024/09/23 22:27:34 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:35 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:35 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:35 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:35 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:35 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:35 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:35 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:35 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:36 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:36 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:36 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:36 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:36 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:36 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:36 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:36 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:36 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:36 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:37 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:37 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:37 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:37 main.go:211: Recipe Detail:  up
-2024/09/23 22:27:37 main.go:211: Recipe Detail:  up
-2024/09/23 22:27:38 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:38 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:38 main.go:211: Recipe Detail:  down
-2024/09/23 22:27:39 main.go:211: Recipe Detail:  left
-2024/09/23 22:27:39 main.go:211: Recipe Detail:  right
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:52 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:27:53 main.go:211: Recipe Detail:  wheel down
-2024/09/23 22:36:28 main.go:211: Recipe Detail:  motion
-2024/09/23 22:36:28 main.go:211: Recipe Detail:  motion
-2024/09/23 22:36:28 main.go:211: Recipe Detail:  motion
-2024/09/23 22:36:28 main.go:211: Recipe Detail:  motion
-2024/09/23 22:36:28 main.go:211: Recipe Detail:  left press
-2024/09/23 22:36:28 main.go:211: Recipe Detail:  left release
-2024/09/23 22:36:31 main.go:281: Starting Recipe TUI program
-2024/09/23 22:36:37 recipes.go:107: Recipe: {IDMeal:52940 StrMeal:Brown Stew Chicken StrDrinkAlternate: StrCategory:Chicken StrArea:Jamaican StrInstructions:Squeeze lime over chicken and rub well. Drain off excess lime juice.
-Combine tomato, scallion, onion, garlic, pepper, thyme, pimento and soy sauce in a large bowl with the chicken pieces. Cover and marinate at least one hour.
-Heat oil in a dutch pot or large saucepan. Shake off the seasonings as you remove each piece of chicken from the marinade. Reserve the marinade for sauce.
-Lightly brown the chicken a few pieces at a time in very hot oil. Place browned chicken pieces on a plate to rest while you brown the remaining pieces.
-Drain off excess oil and return the chicken to the pan. Pour the marinade over the chicken and add the carrots. Stir and cook over medium heat for 10 minutes.
-Mix flour and coconut milk and add to stew, stirring constantly. Turn heat down to minimum and cook another 20 minutes or until tender. StrMealThumb:https://www.themealdb.com/images/media/meals/sypxpx1515365095.jpg StrTags:Stew StrYoutube:https://www.youtube.com/watch?v=_gFB1fkNhXs StrIngredient1:Chicken StrIngredient2:Tomato StrIngredient3:Onions StrIngredient4:Garlic Clove StrIngredient5:Red Pepper StrIngredient6:Carrots StrIngredient7:Lime StrIngredient8:Thyme StrIngredient9:Allspice StrIngredient10:Soy Sauce StrIngredient11:Cornstarch StrIngredient12:Coconut Milk StrIngredient13:Vegetable Oil StrIngredient14: StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1 whole StrMeasure2:1 chopped StrMeasure3:2 chopped StrMeasure4:2 chopped StrMeasure5:1 chopped StrMeasure6:1 chopped StrMeasure7:1 StrMeasure8:2 tsp StrMeasure9:1 tsp  StrMeasure10:2 tbs StrMeasure11:2 tsp StrMeasure12:2 cups  StrMeasure13:1 tbs StrMeasure14: StrMeasure15: StrMeasure16: StrMeasure17: StrMeasure18: StrMeasure19: StrMeasure20: StrSource:http://www.geniuskitchen.com/recipe/authentic-jamaican-brown-stew-chicken-347996 StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/23 22:36:37 main.go:183: Formated Recipe:  
-
-Category: Chicken
-
-Area: Jamaican
-
-Ingredients:
-- 1 whole Chicken
-- 1 chopped Tomato
-- 2 chopped Onions
-- 2 chopped Garlic Clove
-- 1 chopped Red Pepper
-- 1 chopped Carrots
-- 1 Lime
-- 2 tsp Thyme
-- 1 tsp Allspice
-- 2 tbs Soy Sauce
-
-Instructions:
-Squeeze lime over chicken and rub well. Drain off excess lime juice.
-Combine tomato, scallion, onion, garlic, pepper, thyme, pimento and soy sauce in a large bowl with the chicken pieces. Cover and marinate at least one hour.
-Heat oil in a dutch pot or large saucepan. Shake off the seasonings as you remove each piece of chicken from the marinade. Reserve the marinade for sauce.
-Lightly brown the chicken a few pieces at a time in very hot oil. Place browned chicken pieces on a plate to rest while you brown the remaining pieces.
-Drain off excess oil and return the chicken to the pan. Pour the marinade over the chicken and add the carrots. Stir and cook over medium heat for 10 minutes.
-Mix flour and coconut milk and add to stew, stirring constantly. Turn heat down to minimum and cook another 20 minutes or until tender.
+0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
+1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
+2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
+3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
+4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
+5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
+6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
+7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.

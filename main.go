@@ -195,7 +195,8 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.recipeView.Width = msg.Width - h
 	}
 
-	// Update lists and viewport
+	// Update lists and viewport based on state
+	// These are updated based on the user's interaction
 	switch m.state {
 	case categoryList:
 		var cmd tea.Cmd
@@ -207,10 +208,8 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		return m, cmd
 	case recipeDetail:
 		var cmd tea.Cmd
-		var cmds []tea.Cmd
 		m.recipeView, cmd = m.recipeView.Update(msg)
-		cmds = append(cmds, cmd)
-		return m, tea.Batch(cmds...)
+		return m, cmd
 	}
 
 	return m, nil
