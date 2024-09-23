@@ -97,6 +97,7 @@ type model struct {
 	categoryList list.Model
 	mealList     list.Model
 	recipeView   viewport.Model
+	loading      bool
 }
 
 // listItem is a helper for managing the list of categories and meals
@@ -128,12 +129,14 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				// Move to meal list
 				selectedCategory := m.categories[m.categoryList.Index()]
 				m.state = mealList
+				m.loading = true
 				return m, fetchMeals(selectedCategory.Name)
 
 			case mealList:
 				// Move to recipe detail
 				selectedMeal := m.meals[m.mealList.Index()]
 				m.state = recipeDetail
+				m.loading = true
 				return m, fetchRecipe(selectedMeal.ID)
 
 			case recipeDetail:
@@ -159,6 +162,7 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.categoryList.SetItems(items)
 		m.categoryList.Title = "Meal Categories"
 		m.state = categoryList
+		m.loading = false
 		return m, tea.Batch(nil)
 
 	case []Meal:
@@ -170,15 +174,16 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.mealList.SetItems(items)
 		m.mealList.Title = "Meals"
 		m.state = mealList
+		m.loading = false
 		return m, tea.Batch(nil)
 
 	case Recipe:
 		m.recipe = msg
-		m.recipeView = viewport.New(80, 20)
 		content := formatRecipe(msg)
 		log.Println("Formated Recipe: ", content)
 		m.recipeView.SetContent(content)
 		m.state = recipeDetail
+		m.loading = false
 		return m, tea.Batch(nil)
 
 	// Use the full screen for the list and viewport
@@ -186,8 +191,8 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		h, v := listStyle.GetFrameSize()
 		m.categoryList.SetSize(msg.Width-h, msg.Height-v)
 		m.mealList.SetSize(msg.Width-h, msg.Height-v)
-		m.recipeView.Height = msg.Height
-		m.recipeView.Width = msg.Width
+		m.recipeView.Height = msg.Height - v - 6
+		m.recipeView.Width = msg.Width - h
 	}
 
 	// Update lists and viewport
@@ -202,8 +207,10 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		return m, cmd
 	case recipeDetail:
 		var cmd tea.Cmd
+		var cmds []tea.Cmd
 		m.recipeView, cmd = m.recipeView.Update(msg)
-		return m, cmd
+		cmds = append(cmds, cmd)
+		return m, tea.Batch(cmds...)
 	}
 
 	return m, nil
@@ -211,6 +218,10 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 // View function
 func (m model) View() string {
+	if m.loading {
+		return "Loading..."
+	}
+
 	switch m.state {
 	case categoryList:
 		return m.categoryList.View()
@@ -244,6 +255,9 @@ func main() {
 	}
 	defer logFile.Close()
 
+	// to change the flags on the default logger
+	log.SetFlags(log.LstdFlags | log.Lshortfile)
+
 	// Set the log output to the file
 	log.SetOutput(logFile)
 
@@ -260,6 +274,8 @@ func main() {
 
 	m.recipeView = viewport.New(80, 20)
 	m.recipeView.SetContent("")
+
+	m.loading = true
 
 	// Start the Bubble Tea program
 	log.Println("Starting Recipe TUI program")
