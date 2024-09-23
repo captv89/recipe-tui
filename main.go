@@ -215,7 +215,8 @@ func (m model) View() string {
 	case mealList:
 		return m.mealList.View()
 	case recipeDetail:
-		return m.recipeView.View() + "\nPress backspace to go back."
+		body := fmt.Sprintf("%s\n%s\n%s", m.headerView(), m.recipeView.View(), m.footerView())
+		return viewportStyle.Render(body)
 	}
 	return ""
 }
