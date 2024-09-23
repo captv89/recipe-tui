@@ -118,6 +118,19 @@ func (m model) Init() tea.Cmd {
 // Update function
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
+	// Use the full screen for the list and viewport
+	case tea.WindowSizeMsg:
+		// Get the size of the list style
+		h, v := listStyle.GetFrameSize()
+		m.categoryList.SetSize(msg.Width-h, msg.Height-v)
+		m.mealList.SetSize(msg.Width-h, msg.Height-v)
+
+		// Get the size of the viewport style
+		hv, wv := viewportStyle.GetFrameSize()
+		m.recipeView.Height = msg.Height - wv - 6
+		m.recipeView.Width = msg.Width - hv -2
+
+	// Handle key presses
 	case tea.KeyMsg:
 		switch msg.String() {
 		case "q":
@@ -186,13 +199,6 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.loading = false
 		return m, tea.Batch(nil)
 
-	// Use the full screen for the list and viewport
-	case tea.WindowSizeMsg:
-		h, v := listStyle.GetFrameSize()
-		m.categoryList.SetSize(msg.Width-h, msg.Height-v)
-		m.mealList.SetSize(msg.Width-h, msg.Height-v)
-		m.recipeView.Height = msg.Height - v - 6
-		m.recipeView.Width = msg.Width - h
 	}
 
 	// Update lists and viewport based on state
@@ -223,9 +229,9 @@ func (m model) View() string {
 
 	switch m.state {
 	case categoryList:
-		return m.categoryList.View()
+		return listStyle.Render(m.categoryList.View())
 	case mealList:
-		return m.mealList.View()
+		return listStyle.Render(m.mealList.View())
 	case recipeDetail:
 		body := fmt.Sprintf("%s\n%s\n%s", m.headerView(), m.recipeView.View(), m.footerView())
 		return viewportStyle.Render(body)
@@ -271,7 +277,7 @@ func main() {
 	m.mealList.Title = "Meals"
 	m.mealList.SetSize(20, 10) // Ensure the size is set
 
-	m.recipeView = viewport.New(80, 20)
+	m.recipeView = viewport.New(40, 20)
 	m.recipeView.SetContent("")
 
 	m.loading = true
@@ -280,7 +286,7 @@ func main() {
 	log.Println("Starting Recipe TUI program")
 	p := tea.NewProgram(m,
 		tea.WithAltScreen(),
-		tea.WithMouseAllMotion())
+		tea.WithMouseCellMotion())
 	if _, err := p.Run(); err != nil {
 		log.Fatal(err)
 	}
