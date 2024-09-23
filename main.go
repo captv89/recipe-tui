@@ -3,10 +3,13 @@ package main
 import (
 	"fmt"
 	"log"
+	"os"
+	"strings"
 
 	"github.com/charmbracelet/bubbles/list"
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/charmbracelet/lipgloss"
 )
 
 // Types for categories, meals, and recipes
@@ -114,14 +117,6 @@ func (m model) Init() tea.Cmd {
 // Update function
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
-	// Use the full screen for the list and viewport
-	case tea.WindowSizeMsg:
-		h, v := listStyle.GetFrameSize()
-		m.categoryList.SetSize(msg.Width-h, msg.Height-v)
-		m.mealList.SetSize(msg.Width-h, msg.Height-v)
-		m.recipeView.Height = msg.Height - v
-		m.recipeView.Width = msg.Width - h
-
 	case tea.KeyMsg:
 		switch msg.String() {
 		case "q":
@@ -181,10 +176,18 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.recipe = msg
 		m.recipeView = viewport.New(80, 20)
 		content := formatRecipe(msg)
-		fmt.Println(content)
+		log.Println("Formated Recipe: ", content)
 		m.recipeView.SetContent(content)
 		m.state = recipeDetail
 		return m, tea.Batch(nil)
+
+	// Use the full screen for the list and viewport
+	case tea.WindowSizeMsg:
+		h, v := listStyle.GetFrameSize()
+		m.categoryList.SetSize(msg.Width-h, msg.Height-v)
+		m.mealList.SetSize(msg.Width-h, msg.Height-v)
+		m.recipeView.Height = msg.Height
+		m.recipeView.Width = msg.Width
 	}
 
 	// Update lists and viewport
@@ -220,7 +223,30 @@ func (m model) View() string {
 	return ""
 }
 
+func (m model) headerView() string {
+	title := titleStyle.Render(m.recipe.StrMeal)
+	line := strings.Repeat("─", max(0, m.recipeView.Width-lipgloss.Width(title)))
+	return lipgloss.JoinHorizontal(lipgloss.Center, title, line)
+}
+
+func (m model) footerView() string {
+	info := infoStyle.Render(fmt.Sprintf("%3.f%%", m.recipeView.ScrollPercent()*100))
+	line := strings.Repeat("─", max(0, m.recipeView.Width-lipgloss.Width(info)))
+	return lipgloss.JoinHorizontal(lipgloss.Center, line, info)
+}
+
 func main() {
+	// Log
+	// Open or create the log file
+	logFile, err := os.OpenFile("debug.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0o666)
+	if err != nil {
+		log.Fatalf("Failed to open log file: %s", err)
+	}
+	defer logFile.Close()
+
+	// Set the log output to the file
+	log.SetOutput(logFile)
+
 	m := model{}
 
 	// Initialise the Model
@@ -235,6 +261,8 @@ func main() {
 	m.recipeView = viewport.New(80, 20)
 	m.recipeView.SetContent("")
 
+	// Start the Bubble Tea program
+	log.Println("Starting Recipe TUI program")
 	p := tea.NewProgram(m,
 		tea.WithAltScreen(),
 		tea.WithMouseAllMotion())

@@ -3,11 +3,11 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/http"
 	"strings"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/lipgloss"
 )
 
 type MealsCategory struct {
@@ -22,6 +22,10 @@ type MealItems struct {
 		StrMealThumb string `json:"strMealThumb,omitempty"`
 		IDMeal       string `json:"idMeal,omitempty"`
 	} `json:"meals,omitempty"`
+}
+
+type MealRecipetype struct {
+	Meals []Recipe `json:"meals"`
 }
 
 // API placeholders
@@ -92,25 +96,18 @@ func fetchRecipe(mealID string) tea.Cmd {
 		}
 		defer r.Body.Close()
 
-		var data Recipe
+		var data MealRecipetype
 		err = json.NewDecoder(r.Body).Decode(&data)
 		if err != nil {
 			return Recipe{}
 		}
-		return data
+
+		// Reflect the data into a Recipe struct
+		recipe := data.Meals[0]
+		log.Printf("Recipe: %+v", recipe)
+
+		return recipe
 	}
-}
-
-func (m model) headerView() string {
-	title := titleStyle.Render(m.recipe.StrMeal)
-	line := strings.Repeat("─", max(0, m.recipeView.Width-lipgloss.Width(title)))
-	return lipgloss.JoinHorizontal(lipgloss.Center, title, line)
-}
-
-func (m model) footerView() string {
-	info := infoStyle.Render(fmt.Sprintf("%3.f%%", m.recipeView.ScrollPercent()*100))
-	line := strings.Repeat("─", max(0, m.recipeView.Width-lipgloss.Width(info)))
-	return lipgloss.JoinHorizontal(lipgloss.Center, line, info)
 }
 
 func max(a, b int) int {
@@ -131,9 +128,9 @@ func formatRecipe(r Recipe) string {
 	}
 
 	return fmt.Sprintf(
-		"%s\n\nCategory: %s\n\nIngredients:\n%s\n\nInstructions:\n%s",
-		r.StrMeal,
+		"\n\nCategory: %s\n\nArea: %s\n\nIngredients:\n%s\n\nInstructions:\n%s",
 		r.StrCategory,
+		r.StrArea,
 		strings.Join(ingredients, "\n"),
 		r.StrInstructions,
 	)
@@ -161,6 +158,26 @@ func getIngredientField(r Recipe, i int) string {
 		return r.StrIngredient9
 	case 10:
 		return r.StrIngredient10
+	case 11:
+		return r.StrIngredient11
+	case 12:
+		return r.StrIngredient12
+	case 13:
+		return r.StrIngredient13
+	case 14:
+		return r.StrIngredient14
+	case 15:
+		return r.StrIngredient15
+	case 16:
+		return r.StrIngredient16
+	case 17:
+		return r.StrIngredient17
+	case 18:
+		return r.StrIngredient18
+	case 19:
+		return r.StrIngredient19
+	case 20:
+		return r.StrIngredient20
 	default:
 		return ""
 	}
@@ -188,9 +205,27 @@ func getMeasureField(r Recipe, i int) string {
 		return r.StrMeasure9
 	case 10:
 		return r.StrMeasure10
+	case 11:
+		return r.StrMeasure11
+	case 12:
+		return r.StrMeasure12
+	case 13:
+		return r.StrMeasure13
+	case 14:
+		return r.StrMeasure14
+	case 15:
+		return r.StrMeasure15
+	case 16:
+		return r.StrMeasure16
+	case 17:
+		return r.StrMeasure17
+	case 18:
+		return r.StrMeasure18
+	case 19:
+		return r.StrMeasure19
+	case 20:
+		return r.StrMeasure20
 	default:
 		return ""
 	}
 }
-
-
