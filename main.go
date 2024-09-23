@@ -1,12 +1,12 @@
 package main
 
 import (
+	"fmt"
 	"log"
 
 	"github.com/charmbracelet/bubbles/list"
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/lipgloss"
 )
 
 // Types for categories, meals, and recipes
@@ -84,9 +84,6 @@ const (
 	mealList
 	recipeDetail
 )
-
-// Style for the list
-var listStyle = lipgloss.NewStyle().Margin(1, 2)
 
 // Main model struct
 type model struct {

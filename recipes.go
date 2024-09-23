@@ -102,14 +102,14 @@ func fetchRecipe(mealID string) tea.Cmd {
 }
 
 func (m model) headerView() string {
-	title := titleStyle.Render(m.Recipe.StrMeal)
-	line := strings.Repeat("─", max(0, m.Viewport.Width-lipgloss.Width(title)))
+	title := titleStyle.Render(m.recipe.StrMeal)
+	line := strings.Repeat("─", max(0, m.recipeView.Width-lipgloss.Width(title)))
 	return lipgloss.JoinHorizontal(lipgloss.Center, title, line)
 }
 
 func (m model) footerView() string {
-	info := infoStyle.Render(fmt.Sprintf("%3.f%%", m.Viewport.ScrollPercent()*100))
-	line := strings.Repeat("─", max(0, m.Viewport.Width-lipgloss.Width(info)))
+	info := infoStyle.Render(fmt.Sprintf("%3.f%%", m.recipeView.ScrollPercent()*100))
+	line := strings.Repeat("─", max(0, m.recipeView.Width-lipgloss.Width(info)))
 	return lipgloss.JoinHorizontal(lipgloss.Center, line, info)
 }
 
