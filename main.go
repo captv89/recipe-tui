@@ -63,15 +63,15 @@ func (m *model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.list.SetSize(msg.Width-h, msg.Height-v)
 		m.viewport.Width = msg.Width - h
 		m.viewport.Height = msg.Height - v - 5
-		if m.showDetails && m.list.SelectedItem() != nil {
-			selectedItem := m.list.SelectedItem().(item)
-			m.viewport.SetContent(fmt.Sprintf("Title: %s\nAuthor: %s\nDescription: %s\nContent: %s",
-				selectedItem.Title(),
-				selectedItem.Author(),
-				selectedItem.Description(),
-				selectedItem.Content(),
-			))
-		}
+		// if m.showDetails && m.list.SelectedItem() != nil {
+		// 	selectedItem := m.list.SelectedItem().(item)
+		// 	m.viewport.SetContent(fmt.Sprintf("Title: %s\nAuthor: %s\nDescription: %s\nContent: %s",
+		// 		selectedItem.Title(),
+		// 		selectedItem.Author(),
+		// 		selectedItem.Description(),
+		// 		selectedItem.Content(),
+		// 	))
+		// }
 	}
 
 	var cmd tea.Cmd
