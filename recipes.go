@@ -113,6 +113,13 @@ func (m model) footerView() string {
 	return lipgloss.JoinHorizontal(lipgloss.Center, line, info)
 }
 
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 func formatRecipe(r Recipe) string {
 	var ingredients []string
 	for i := 1; i <= 10; i++ { // Adjusted to 10 for brevity
@@ -186,9 +193,4 @@ func getMeasureField(r Recipe, i int) string {
 	}
 }
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
+

@@ -180,7 +180,9 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	case Recipe:
 		m.recipe = msg
 		m.recipeView = viewport.New(80, 20)
-		m.recipeView.SetContent(m.recipe.StrInstructions)
+		content := formatRecipe(msg)
+		fmt.Println(content)
+		m.recipeView.SetContent(content)
 		m.state = recipeDetail
 		return m, tea.Batch(nil)
 	}
