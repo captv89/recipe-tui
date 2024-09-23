@@ -6,6 +6,7 @@ import (
 	"github.com/charmbracelet/bubbles/list"
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/charmbracelet/lipgloss"
 )
 
 // Types for categories, meals, and recipes
@@ -84,6 +85,9 @@ const (
 	recipeDetail
 )
 
+// Style for the list
+var listStyle = lipgloss.NewStyle().Margin(1, 2)
+
 // Main model struct
 type model struct {
 	state        state
@@ -113,6 +117,14 @@ func (m model) Init() tea.Cmd {
 // Update function
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
+	// Use the full screen for the list and viewport
+	case tea.WindowSizeMsg:
+		h, v := listStyle.GetFrameSize()
+		m.categoryList.SetSize(msg.Width-h, msg.Height-v)
+		m.mealList.SetSize(msg.Width-h, msg.Height-v)
+		m.recipeView.Height = msg.Height - v
+		m.recipeView.Width = msg.Width - h
+
 	case tea.KeyMsg:
 		switch msg.String() {
 		case "q":
@@ -223,7 +235,9 @@ func main() {
 	m.recipeView = viewport.New(80, 20)
 	m.recipeView.SetContent("")
 
-	p := tea.NewProgram(m, tea.WithAltScreen())
+	p := tea.NewProgram(m,
+		tea.WithAltScreen(),
+		tea.WithMouseAllMotion())
 	if _, err := p.Run(); err != nil {
 		log.Fatal(err)
 	}
