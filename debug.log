@@ -1,170 +1,63 @@
-2024/09/24 00:28:45 main.go:288: Starting Recipe TUI program
-2024/09/24 00:28:49 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:28:49 main.go:183: Formated Recipe:  
-
+2024/09/24 22:28:38 recipes.go:107: Recipe: {IDMeal:52878 StrMeal:Beef and Oyster pie StrDrinkAlternate: StrCategory:Beef StrArea:British StrInstructions:Season the beef cubes with salt and black pepper. Heat a tablespoon of oil in the frying pan and fry the meat over a high heat. Do this in three batches so that you don’t overcrowd the pan, transferring the meat to a large flameproof casserole dish once it is browned all over. Add extra oil if the pan seems dry.
+In the same pan, add another tablespoon of oil and cook the shallots for 4-5 minutes, then add the garlic and fry for 30 seconds. Add the bacon and fry until slightly browned. Transfer the onion and bacon mixture to the casserole dish and add the herbs.
+Preheat the oven to 180C/350F/Gas 4.
+Pour the stout into the frying pan and bring to the boil, stirring to lift any stuck-on browned bits from the bottom of the pan. Pour the stout over the beef in the casserole dish and add the stock. Cover the casserole and place it in the oven for 1½-2 hours, or until the beef is tender and the sauce is reduced.
+Skim off any surface fat, taste and add salt and pepper if necessary, then stir in the cornflour paste. Put the casserole dish on the hob – don’t forget that it will be hot – and simmer for 1-2 minutes, stirring, until thickened. Leave to cool.
+Increase the oven to 200C/400F/Gas 6. To make the pastry, put the flour and salt in a very large bowl. Grate the butter and stir it into the flour in three batches. Gradually add 325ml/11fl oz cold water – you may not need it all – and stir with a round-bladed knife until the mixture just comes together. Knead the pastry lightly into a ball on a lightly floured surface and set aside 250g/9oz for the pie lid.
+Roll the rest of the pastry out until about 2cm/¾in larger than the dish you’re using. Line the dish with the pastry then pile in the filling, tucking the oysters in as well. Brush the edge of the pastry with beaten egg.
+Roll the remaining pastry until slightly larger than your dish and gently lift over the filling, pressing the edges firmly to seal, then trim with a sharp knife. Brush with beaten egg to glaze. Put the dish on a baking tray and bake for 25-30 minutes, or until the pastry is golden-brown and the filling is bubbling. StrMealThumb:https://www.themealdb.com/images/media/meals/wrssvt1511556563.jpg StrTags:Pie StrYoutube:https://www.youtube.com/watch?v=ONX74yP6JnI StrIngredient1:Beef StrIngredient2:Olive Oil StrIngredient3:Shallots StrIngredient4:Garlic StrIngredient5:Bacon StrIngredient6:Thyme StrIngredient7:Bay Leaf StrIngredient8:Stout StrIngredient9:Beef Stock StrIngredient10:Corn Flour StrIngredient11:Oysters StrIngredient12:Plain Flour StrIngredient13:Salt StrIngredient14:Butter StrIngredient15:Eggs StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:900g StrMeasure2:3 tbs StrMeasure3:3 StrMeasure4:2 cloves minced StrMeasure5:125g StrMeasure6:1 tbs chopped StrMeasure7:2 StrMeasure8:330ml StrMeasure9:400ml StrMeasure10:2 tbs StrMeasure11:8 StrMeasure12:400g StrMeasure13:pinch StrMeasure14:250g StrMeasure15:To Glaze StrMeasure16: StrMeasure17: StrMeasure18: StrMeasure19: StrMeasure20: StrSource:https://www.bbc.co.uk/food/recipes/beef_and_oyster_pie_65230 StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
+2024/09/24 22:28:38 main.go:201: Formated Recipe:  
 Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:29:21 main.go:288: Starting Recipe TUI program
-2024/09/24 00:29:24 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:29:24 main.go:183: Formated Recipe:  
-
-Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:31:27 main.go:290: Starting Recipe TUI program
-2024/09/24 00:31:32 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:31:32 main.go:198: Formated Recipe:  
-
-Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:32:33 main.go:289: Starting Recipe TUI program
-2024/09/24 00:32:49 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:32:49 main.go:199: Formated Recipe:  
-
-Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:34:13 main.go:289: Starting Recipe TUI program
-2024/09/24 00:35:24 main.go:289: Starting Recipe TUI program
-2024/09/24 00:35:39 recipes.go:107: Recipe: {IDMeal:52848 StrMeal:Bean & Sausage Hotpot StrDrinkAlternate: StrCategory:Miscellaneous StrArea:British StrInstructions:In a large casserole, fry the sausages until brown all over – about 10 mins.
-
-Add the tomato sauce, stirring well, then stir in the beans, treacle or sugar and mustard. Bring to the simmer, cover and cook for 30 mins. Great served with crusty bread or rice. StrMealThumb:https://www.themealdb.com/images/media/meals/vxuyrx1511302687.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=B0YX0yPX4Wo StrIngredient1:Sausages StrIngredient2:Tomato Sauce StrIngredient3:Butter Beans StrIngredient4:Black Treacle StrIngredient5:English Mustard StrIngredient6: StrIngredient7: StrIngredient8: StrIngredient9: StrIngredient10: StrIngredient11: StrIngredient12: StrIngredient13: StrIngredient14: StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:8 large StrMeasure2:1 Jar StrMeasure3:1200g StrMeasure4:1 tbls StrMeasure5:1 tsp  StrMeasure6: StrMeasure7: StrMeasure8: StrMeasure9: StrMeasure10: StrMeasure11: StrMeasure12: StrMeasure13: StrMeasure14: StrMeasure15: StrMeasure16: StrMeasure17: StrMeasure18: StrMeasure19: StrMeasure20: StrSource:https://www.bbcgoodfood.com/recipes/339607/bean-and-sausage-hotpot StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:35:39 main.go:199: Formated Recipe:  
-
-Category: Miscellaneous
 
 Area: British
 
 Ingredients:
-- 8 large Sausages
-- 1 Jar Tomato Sauce
-- 1200g Butter Beans
-- 1 tbls Black Treacle
-- 1 tsp English Mustard
+- 900g Beef
+- 3 tbs Olive Oil
+- 3 Shallots
+- 2 cloves minced Garlic
+- 125g Bacon
+- 1 tbs chopped Thyme
+- 2 Bay Leaf
+- 330ml Stout
+- 400ml Beef Stock
+- 2 tbs Corn Flour
 
 Instructions:
-In a large casserole, fry the sausages until brown all over – about 10 mins.
-
-Add the tomato sauce, stirring well, then stir in the beans, treacle or sugar and mustard. Bring to the simmer, cover and cook for 30 mins. Great served with crusty bread or rice.
-2024/09/24 00:36:03 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
+Season the beef cubes with salt and black pepper. Heat a tablespoon of oil in the frying pan and fry the meat over a high heat. Do this in three batches so that you don’t overcrowd the pan, transferring the meat to a large flameproof casserole dish once it is browned all over. Add extra oil if the pan seems dry.
+In the same pan, add another tablespoon of oil and cook the shallots for 4-5 minutes, then add the garlic and fry for 30 seconds. Add the bacon and fry until slightly browned. Transfer the onion and bacon mixture to the casserole dish and add the herbs.
+Preheat the oven to 180C/350F/Gas 4.
+Pour the stout into the frying pan and bring to the boil, stirring to lift any stuck-on browned bits from the bottom of the pan. Pour the stout over the beef in the casserole dish and add the stock. Cover the casserole and place it in the oven for 1½-2 hours, or until the beef is tender and the sauce is reduced.
+Skim off any surface fat, taste and add salt and pepper if necessary, then stir in the cornflour paste. Put the casserole dish on the hob – don’t forget that it will be hot – and simmer for 1-2 minutes, stirring, until thickened. Leave to cool.
+Increase the oven to 200C/400F/Gas 6. To make the pastry, put the flour and salt in a very large bowl. Grate the butter and stir it into the flour in three batches. Gradually add 325ml/11fl oz cold water – you may not need it all – and stir with a round-bladed knife until the mixture just comes together. Knead the pastry lightly into a ball on a lightly floured surface and set aside 250g/9oz for the pie lid.
+Roll the rest of the pastry out until about 2cm/¾in larger than the dish you’re using. Line the dish with the pastry then pile in the filling, tucking the oysters in as well. Brush the edge of the pastry with beaten egg.
+Roll the remaining pastry until slightly larger than your dish and gently lift over the filling, pressing the edges firmly to seal, then trim with a sharp knife. Brush with beaten egg to glaze. Put the dish on a baking tray and bake for 25-30 minutes, or until the pastry is golden-brown and the filling is bubbling.
+2024/09/24 22:28:38 main.go:203: Viewport height: 16, Content height: 26
+2024/09/24 22:28:38 main.go:204: Width 0
+2024/09/24 22:28:38 main.go:205: Viewport Scroll Y: 9
+2024/09/24 22:28:38 main.go:206: Viewport Y Position: 0, Visible Lines: 16
+2024/09/24 22:28:38 main.go:207: Viewport Total Lines: 26
+2024/09/24 22:28:38 main.go:268: 16 0 16 26 9
+2024/09/24 22:28:39 main.go:169: At Bottom true
+2024/09/24 22:28:39 main.go:170: down 10
+2024/09/24 22:28:39 main.go:268: 16 0 16 26 10
+2024/09/24 22:28:39 main.go:169: At Bottom true
+2024/09/24 22:28:39 main.go:170: down 11
+2024/09/24 22:28:39 main.go:268: 16 0 15 26 11
+2024/09/24 22:28:40 main.go:169: At Bottom true
+2024/09/24 22:28:40 main.go:170: down 12
+2024/09/24 22:28:40 main.go:268: 16 0 14 26 12
+2024/09/24 22:28:40 main.go:169: At Bottom true
+2024/09/24 22:28:40 main.go:170: down 13
+2024/09/24 22:28:40 main.go:268: 16 0 13 26 13
+2024/09/24 22:28:41 main.go:162: up 12
+2024/09/24 22:28:41 main.go:268: 16 0 16 26 10
+2024/09/24 22:30:18 main.go:268: 16 0 16 26 10
+2024/09/24 22:30:18 main.go:268: 16 0 16 26 10
+2024/09/24 22:30:21 main.go:319: Starting Recipe TUI program
+2024/09/24 22:30:21 main.go:227: Vertical Height 6
+2024/09/24 22:30:21 main.go:229: x 4 y 0
+2024/09/24 22:30:25 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
 1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
 2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
 3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
@@ -172,8 +65,7 @@ Add the tomato sauce, stirring well, then stir in the beans, treacle or sugar an
 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:36:03 main.go:199: Formated Recipe:  
-
+2024/09/24 22:30:25 main.go:201: Formated Recipe:  
 Category: Beef
 
 Area: Filipino
@@ -199,255 +91,54 @@ Instructions:
 5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
 6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
 7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:42:37 main.go:289: Starting Recipe TUI program
-2024/09/24 00:42:40 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:42:40 main.go:199: Formated Recipe:  
-
-Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:44:35 main.go:287: Starting Recipe TUI program
-2024/09/24 00:44:39 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:44:39 main.go:197: Formated Recipe:  
-
-Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:45:46 main.go:286: Starting Recipe TUI program
-2024/09/24 00:45:49 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:45:49 main.go:196: Formated Recipe:  
-
-Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:46:15 main.go:286: Starting Recipe TUI program
-2024/09/24 00:46:19 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:46:19 main.go:196: Formated Recipe:  
-
-Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:46:44 main.go:286: Starting Recipe TUI program
-2024/09/24 00:46:47 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:46:47 main.go:196: Formated Recipe:  
-
-Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:47:32 main.go:286: Starting Recipe TUI program
-2024/09/24 00:47:36 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:47:36 main.go:196: Formated Recipe:  
-
-Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
-2024/09/24 00:47:57 main.go:286: Starting Recipe TUI program
-2024/09/24 00:48:03 recipes.go:107: Recipe: {IDMeal:53071 StrMeal:Beef Asado StrDrinkAlternate: StrCategory:Beef StrArea:Filipino StrInstructions:0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half. StrMealThumb:https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg StrTags: StrYoutube:https://www.youtube.com/watch?v=lNlK8DVhXXA StrIngredient1:Beef StrIngredient2:Beef Stock Concentrate StrIngredient3:Tomato Puree StrIngredient4:Water StrIngredient5:Soy Sauce StrIngredient6:White Wine Vinegar StrIngredient7:Pepper StrIngredient8:Bay Leaf StrIngredient9:Lemon StrIngredient10:Tomato Sauce StrIngredient11:Butter StrIngredient12:Olive Oil StrIngredient13:Onion StrIngredient14:Garlic StrIngredient15: StrIngredient16: StrIngredient17: StrIngredient18: StrIngredient19: StrIngredient20: StrMeasure1:1.5kg StrMeasure2:1 StrMeasure3:8 ounces StrMeasure4:3 cups  StrMeasure5:6 tablespoons StrMeasure6:1 tbs StrMeasure7:2 tbs StrMeasure8:4 StrMeasure9:1/2  StrMeasure10:2 tbs StrMeasure11:3 tbs StrMeasure12:1/2 cup  StrMeasure13:1 chopped StrMeasure14:4 cloves StrMeasure15:  StrMeasure16:  StrMeasure17:  StrMeasure18:  StrMeasure19:  StrMeasure20:  StrSource:https://panlasangpinoy.com/beef-asado/ StrImageSource: StrCreativeCommonsConfirmed: DateModified:}
-2024/09/24 00:48:03 main.go:196: Formated Recipe:  
-
-Category: Beef
-
-Area: Filipino
-
-Ingredients:
-- 1.5kg Beef
-- 1 Beef Stock Concentrate
-- 8 ounces Tomato Puree
-- 3 cups Water
-- 6 tablespoons Soy Sauce
-- 1 tbs White Wine Vinegar
-- 2 tbs Pepper
-- 4 Bay Leaf
-- 1/2 Lemon
-- 2 tbs Tomato Sauce
-
-Instructions:
-0.	Combine beef, crushed peppercorn, soy sauce, vinegar, dried bay leaves, lemon, and tomato sauce. Mix well. Marinate beef for at least 30 minutes.
-1.	Put the marinated beef in a cooking pot along with remaining marinade. Add water. Let boil.
-2.	Add Knorr Beef Cube. Stir. Cover the pot and cook for 40 minutes in low heat.
-3.	Turn the beef over. Add tomato paste. Continue cooking until beef tenderizes. Set aside.
-4.	Heat oil in a pan. Fry the potato until it browns. Turn over and continue frying the opposite side. Remove from the pan and place on a clean plate. Do the same with the carrots.
-5.	Save 3 tablespoons of cooking oil from the pan where the potato was fried. Saute onion and garlic until onion softens.
-6.	Pour-in the sauce from the beef stew. Let boil. Add the beef. Cook for 2 minutes.
-7.	Add butter and let it melt. Continue cooking until the sauce reduces to half.
+2024/09/24 22:30:25 main.go:203: Viewport height: 16, Content height: 26
+2024/09/24 22:30:25 main.go:204: Width 116 Rendered Width 116
+2024/09/24 22:30:25 main.go:205: Viewport Scroll Y: 0
+2024/09/24 22:30:25 main.go:206: Viewport Y Position: 0, Visible Lines: 16
+2024/09/24 22:30:25 main.go:207: Viewport Total Lines: 26
+2024/09/24 22:30:25 main.go:268: 16 0 16 26 0
+2024/09/24 22:30:25 main.go:169: At Bottom false
+2024/09/24 22:30:25 main.go:170: down 1
+2024/09/24 22:30:25 main.go:268: 16 0 16 26 2
+2024/09/24 22:30:26 main.go:169: At Bottom false
+2024/09/24 22:30:26 main.go:170: down 3
+2024/09/24 22:30:26 main.go:268: 16 0 16 26 4
+2024/09/24 22:30:26 main.go:169: At Bottom false
+2024/09/24 22:30:26 main.go:170: down 5
+2024/09/24 22:30:26 main.go:268: 16 0 16 26 6
+2024/09/24 22:30:26 main.go:169: At Bottom false
+2024/09/24 22:30:26 main.go:170: down 7
+2024/09/24 22:30:26 main.go:268: 16 0 16 26 8
+2024/09/24 22:30:26 main.go:169: At Bottom false
+2024/09/24 22:30:26 main.go:170: down 9
+2024/09/24 22:30:26 main.go:268: 16 0 16 26 10
+2024/09/24 22:30:28 main.go:169: At Bottom true
+2024/09/24 22:30:28 main.go:170: down 11
+2024/09/24 22:30:28 main.go:268: 16 0 15 26 11
+2024/09/24 22:30:28 main.go:169: At Bottom true
+2024/09/24 22:30:28 main.go:170: down 12
+2024/09/24 22:30:28 main.go:268: 16 0 14 26 12
+2024/09/24 22:30:28 main.go:169: At Bottom true
+2024/09/24 22:30:28 main.go:170: down 13
+2024/09/24 22:30:28 main.go:268: 16 0 13 26 13
+2024/09/24 22:30:29 main.go:169: At Bottom true
+2024/09/24 22:30:29 main.go:170: down 14
+2024/09/24 22:30:29 main.go:268: 16 0 12 26 14
+2024/09/24 22:30:30 main.go:162: up 13
+2024/09/24 22:30:30 main.go:268: 16 0 16 26 10
+2024/09/24 22:30:31 main.go:162: up 9
+2024/09/24 22:30:31 main.go:268: 16 0 16 26 8
+2024/09/24 22:30:32 main.go:162: up 7
+2024/09/24 22:30:32 main.go:268: 16 0 16 26 6
+2024/09/24 22:30:32 main.go:162: up 5
+2024/09/24 22:30:32 main.go:268: 16 0 16 26 4
+2024/09/24 22:30:32 main.go:162: up 3
+2024/09/24 22:30:32 main.go:268: 16 0 16 26 2
+2024/09/24 22:30:32 main.go:162: up 1
+2024/09/24 22:30:32 main.go:268: 16 0 16 26 0
+2024/09/24 22:30:33 main.go:162: up 0
+2024/09/24 22:30:33 main.go:268: 16 0 16 26 0
+2024/09/24 22:30:33 main.go:162: up 0
+2024/09/24 22:30:33 main.go:268: 16 0 16 26 0
+2024/09/24 22:30:33 main.go:162: up 0
+2024/09/24 22:30:33 main.go:268: 16 0 16 26 0

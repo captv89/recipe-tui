@@ -128,7 +128,7 @@ func formatRecipe(r Recipe) string {
 	}
 
 	return fmt.Sprintf(
-		"\n\nCategory: %s\n\nArea: %s\n\nIngredients:\n%s\n\nInstructions:\n%s",
+		"\nCategory: %s\n\nArea: %s\n\nIngredients:\n%s\n\nInstructions:\n%s",
 		r.StrCategory,
 		r.StrArea,
 		strings.Join(ingredients, "\n"),

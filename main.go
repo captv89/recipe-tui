@@ -97,6 +97,7 @@ type model struct {
 	categoryList list.Model
 	mealList     list.Model
 	recipeView   viewport.Model
+	width        int
 	loading      bool
 }
 
@@ -118,18 +119,6 @@ func (m model) Init() tea.Cmd {
 // Update function
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
-	// Use the full screen for the list and viewport
-	case tea.WindowSizeMsg:
-		// Get the size of the list style
-		h, v := listStyle.GetFrameSize()
-		m.categoryList.SetSize(msg.Width-h, msg.Height-v)
-		m.mealList.SetSize(msg.Width-h, msg.Height-v)
-
-		// Get the size of the viewport style
-		hv, wv := viewportStyle.GetFrameSize()
-		m.recipeView.Height = msg.Height - wv - 6
-		m.recipeView.Width = msg.Width - hv -2
-
 	// Handle key presses
 	case tea.KeyMsg:
 		switch msg.String() {
@@ -164,6 +153,22 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			} else if m.state == recipeDetail {
 				m.state = mealList
 			}
+
+		case "up", "k":
+			if m.state == recipeDetail {
+				if m.recipeView.YOffset > 0 {
+					m.recipeView.YOffset -= 1
+				}
+				log.Println("up", m.recipeView.YOffset)
+			}
+		case "down", "j":
+			if m.state == recipeDetail {
+				if m.recipeView.YOffset < m.recipeView.TotalLineCount() {
+					m.recipeView.YOffset += 1
+				}
+				log.Println("At Bottom", m.recipeView.AtBottom())
+				log.Println("down", m.recipeView.YOffset)
+			}
 		}
 
 	case []Category:
@@ -195,10 +200,37 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		content := formatRecipe(msg)
 		log.Println("Formated Recipe: ", content)
 		m.recipeView.SetContent(content)
+		log.Printf("Viewport height: %d, Content height: %d", m.recipeView.Height, len(strings.Split(content, "\n")))
+		log.Println("Width", m.recipeView.Width, "Rendered Width", m.width)
+		log.Printf("Viewport Scroll Y: %d", m.recipeView.YOffset)
+		log.Printf("Viewport Y Position: %d, Visible Lines: %d", m.recipeView.YPosition, m.recipeView.VisibleLineCount())
+		log.Printf("Viewport Total Lines: %d", m.recipeView.TotalLineCount())
 		m.state = recipeDetail
 		m.loading = false
 		return m, tea.Batch(nil)
 
+	}
+
+	// Update Viewport height
+	switch msg := msg.(type) {
+	// Use the full screen for the list and viewport
+	case tea.WindowSizeMsg:
+		// Get the size of the list style
+		h, v := listStyle.GetFrameSize()
+		m.categoryList.SetSize(msg.Width-h, msg.Height-v)
+		m.mealList.SetSize(msg.Width-h, msg.Height-v)
+
+		// Get the size of the viewport style
+		headerHeight := lipgloss.Height(m.headerView())
+		footerHeight := lipgloss.Height(m.footerView())
+		verticalMarginHeight := headerHeight + footerHeight
+		log.Println("Vertical Height", verticalMarginHeight)
+		hv, wv := viewportStyle.GetFrameSize()
+		log.Println("x", hv, "y", wv)
+		m.recipeView.Height = msg.Height - verticalMarginHeight
+		viewportStyle.Width(msg.Width - hv - 2)
+		m.width = msg.Width - hv - 2
+		m.recipeView.Width = msg.Width - hv - 2
 	}
 
 	// Update lists and viewport based on state
@@ -233,6 +265,7 @@ func (m model) View() string {
 	case mealList:
 		return listStyle.Render(m.mealList.View())
 	case recipeDetail:
+		log.Println(m.recipeView.Height, m.recipeView.YPosition, m.recipeView.VisibleLineCount(), m.recipeView.TotalLineCount(), m.recipeView.YOffset)
 		body := fmt.Sprintf("%s\n%s\n%s", m.headerView(), m.recipeView.View(), m.footerView())
 		return viewportStyle.Render(body)
 	}
@@ -241,13 +274,13 @@ func (m model) View() string {
 
 func (m model) headerView() string {
 	title := titleStyle.Render(m.recipe.StrMeal)
-	line := strings.Repeat("─", max(0, m.recipeView.Width-lipgloss.Width(title)))
+	line := strings.Repeat("─", max(0, m.width-lipgloss.Width(title)))
 	return lipgloss.JoinHorizontal(lipgloss.Center, title, line)
 }
 
 func (m model) footerView() string {
 	info := infoStyle.Render(fmt.Sprintf("%3.f%%", m.recipeView.ScrollPercent()*100))
-	line := strings.Repeat("─", max(0, m.recipeView.Width-lipgloss.Width(info)))
+	line := strings.Repeat("─", max(0, m.width-lipgloss.Width(info)))
 	return lipgloss.JoinHorizontal(lipgloss.Center, line, info)
 }
 
@@ -277,7 +310,7 @@ func main() {
 	m.mealList.Title = "Meals"
 	m.mealList.SetSize(20, 10) // Ensure the size is set
 
-	m.recipeView = viewport.New(40, 20)
+	m.recipeView = viewport.New(0, 0)
 	m.recipeView.SetContent("")
 
 	m.loading = true
@@ -285,8 +318,7 @@ func main() {
 	// Start the Bubble Tea program
 	log.Println("Starting Recipe TUI program")
 	p := tea.NewProgram(m,
-		tea.WithAltScreen(),
-		tea.WithMouseCellMotion())
+		tea.WithAltScreen())
 	if _, err := p.Run(); err != nil {
 		log.Fatal(err)
 	}
